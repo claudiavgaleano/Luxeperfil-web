@@ -1,0 +1,46 @@
+/*cajon*/
+
+.cajon { 
+    background: url('../img/portones/COMPOSICION-PORTON-12.png');
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: right;  
+}
+
+
+.lamas { 
+    background: url('../img/lamas/LAMAS-PORTON.png'), #fff;
+    background-repeat: no-repeat;
+    background-size:200%;
+    background-position: top 36% left 47%;   
+}
+
+.accesorios { 
+    background: url('../img/accesorios-porton/ANILLO-COMP.png'), #fff;
+    background-repeat: no-repeat;
+        background-size:150%;
+    background-position: top 39% left 47%;    
+}
+
+.guias { 
+    background: url('../img/guias/GUIA-PORTON-CAJON.png'), #fff;
+    background-repeat: no-repeat;
+    background-size:150%;
+    background-position:top 9% left 23%;   
+}
+
+#porton-cajon {
+    background: url('../img/portones/COMPOSICION-PORTON-12.png'), #EFEEEE;
+    background-size: 50%;
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+#porton-renove {
+    background: url('../img/portones/COMPOSICION-PORTON-11.png'), #EFEEEE;
+    background-size: 50%;
+    background-position: right;
+    background-repeat: no-repeat;
+}
+
+

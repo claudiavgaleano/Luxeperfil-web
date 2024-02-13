@@ -1,0 +1,19 @@
+/*cajon*/
+
+
+.vertical { 
+    background: url('../img/mosquiteros/mosquitero-vertical.png'), #fff;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;   
+}
+
+.lateral { 
+    background: url('../img/mosquiteros/mosquitero-lateral.png'), #fff;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;   
+}
+
+
+

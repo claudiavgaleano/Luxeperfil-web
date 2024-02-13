@@ -1,0 +1,23 @@
+.button-guia-porton { 
+/* background: url('../img/lamas/LAMAS-PORTON.png'); */
+background-repeat: no-repeat;
+background-size: 150%;
+background-position: center;   
+}
+
+.button-guia-porton:hover {
+    background-color: #fff;
+}
+.con-cajon {
+    background-image: url('../img/guias/GUIA-PORTON-CAJON.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.renove {
+    background-image: url('../img/guias/GUIA-PORTON-RECAMBIO.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+

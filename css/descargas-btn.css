@@ -1,0 +1,31 @@
+#videos {
+    background-image: url('../img/DESCARGAS/AdobeStock_336905311.jpg');   
+    background-color:#fff;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:contain;  
+}
+
+#instructivos {
+    background-image: url('../img/DESCARGAS/AdobeStock_83889330.jpg');    
+    background-color:#fff;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:contain;  
+}
+
+#folletos {
+    background-image: url('../img/index/ecopvc-thumb.png');
+    background-color:#fff;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:contain;  
+}
+
+#catalogo {
+    background-image: url('../img/DESCARGAS/AdobeStock_266725631.jpg'); 
+    background-color:#fff;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;  
+}

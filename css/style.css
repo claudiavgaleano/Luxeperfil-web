@@ -1,0 +1,2248 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto:200,300,400,500,600|Raleway:300,400,500|Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200');
+/* Home */
+* {
+    padding: 0;
+    margin: 0;
+    border: 0;
+    font-family: Roboto, sans-serif;
+}
+
+/* html {
+    background-color: #fff;
+}
+body {
+    max-width: 1080px;
+    margin:0 auto;
+} */
+
+p {
+    font-size: 14px;
+}
+
+.presentation {
+    display: grid;
+    grid-template-columns: 6% 88% 6%;    
+    box-sizing: border-box;
+    width: 100%;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    box-sizing: border-box;
+
+}
+.social {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-end;
+    font-size:20px;
+    padding-bottom: 36px;
+    gap: 24px;
+    width: 100%;
+    color:#000;
+    box-sizing: border-box;
+}
+
+nav {
+    height: 80px;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+    padding: 0 8px;
+    gap: 32px;
+
+}
+.logo {
+    margin-right: auto;
+}
+.logo img{
+    height: 30px;
+    width: auto;
+}
+
+nav > a:not(.logo), .social >a {
+    color: #000;
+    display: block;
+    padding: 8px;
+    border-radius:  50%;
+    line-height: 0;
+}
+
+nav > a:not(.logo):hover, .social > a:hover {
+    color: #000;
+    background-color: rgba(0,0,0,.1);
+    
+}
+
+ .navbar {
+    display: flex;
+    flex-direction: row;
+    gap: 48px;
+    list-style: none;
+    font-size: 14px;
+}
+.navbar-item {
+    display: block;
+    transition-duration: 0.5s;
+    position: relative;
+}
+.navbar .navbar-item ul {
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
+    transition: all 0.5s ease;
+    padding-top: 1rem;
+    left: -16px;
+    display: none;
+    list-style: none;
+}
+
+.material-symbols-outlined {
+    font-variation-settings:
+    'FILL' 0,
+    'wght' 300,
+    'GRAD' 0,
+    'opsz' 24
+  }
+
+.navbar .navbar-item:hover > ul, .navbar .navbar-item ul:hover {
+    visibility: visible;
+    opacity: 1;
+    display: block flex;
+    flex-direction: column;
+    gap: 16px;
+    background-color: #fff;
+    color:#2A2A2A;
+    z-index:1;
+    padding:16px;
+}
+
+.navbar-item a {
+    color: #000;
+    text-decoration: none;
+    display: block;
+    font-weight: 300;
+}
+
+.navbar-item a.active {
+    font-weight: 500;
+}
+
+.navbar-item a:hover {
+    color: #000;
+    text-decoration: none;
+    font-weight: 500;
+}
+
+.carousel {
+    height: 700px;
+    background-color: #fff;
+    overflow: hidden;
+    position: relative;
+}
+
+.slides {
+    display: flex;    
+    overflow-x: hidden;
+    flex-wrap: nowrap;
+}
+
+.slides::-webkit-scrollbar {
+display: none;
+  }
+
+  .slides > .carousel-item{
+    scroll-snap-align: start;
+    flex-shrink: 0;
+    width: 100%;
+    height: 700px;
+    background: #eee;
+    background-size: cover;
+    background-repeat:no-repeat;
+    transform-origin: center center;
+    transform: scale(1);
+    transition: transform 0.5s;
+    position: relative;
+    counter-increment: item;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 100px;
+  }
+
+  .carousel-content {
+    height: 100%;
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: flex-end; 
+    margin-left: auto;
+    margin-right: 40px;
+    gap: 40px;
+  }
+
+  .carousel-text {
+    min-width: 70%;
+    height: fit-content;
+    padding: 2rem;
+    display: flex;
+    justify-content: flex-end;
+    gap: 16px;
+    text-align: center;
+    font-weight: 300;
+    font-size: 2rem;
+    background-color: rgba(0,0,0,.4);
+    box-sizing: border-box;
+    align-items: center;
+    backdrop-filter: blur(5px);
+  }
+
+  .carousel-text > p {
+    font-size: 2rem;
+  }
+
+  #slide-2 .carousel-text {
+    background-color: rgba(255,255,255,.2);
+  }
+  
+  #slide-2 .carousel-text > p, #slide-5 .carousel-text > p, #slide-3 .carousel-text > p {
+    color: #fff;
+  }
+
+  .carousel-text > p {
+    width: 18ch;
+  }
+
+  .carousel-text .strong-text {
+    font-weight: 500;
+  }
+
+  .carousel-text > a {
+    font-size: 4rem;
+    color: #2A2A2A;
+    background: radial-gradient(#fff 50%, rgba(255,255,255,0)50%);
+    border-radius: 100%;
+    width: -moz-fit-content;
+    width: fit-content;
+    height: -moz-fit-content;
+    height: fit-content;
+  }
+
+  .carousel-text > a:hover {
+    font-size: 4rem;
+    color: #fff;
+    background: radial-gradient(#2A2A2A 50%, rgba(255,255,255,0)50%);
+  }
+
+  .carousel-text > a > span, .carousel-text > a > span > i, .carousel-text > a > span > i::before{
+    line-height: 0;
+  }
+
+  .carousel_control {
+    /* position: absolute; */
+    z-index:4;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    align-items: center;
+/*     top:60%;
+    right: 5%; */
+    gap: 8px;
+  }
+  .carousel div > a.slider-item {
+    display: inline-flex;
+    width: 2.5rem;
+    height: 1rem;
+    background: white;
+    text-decoration: none;
+    align-items: center;
+    justify-content: center;
+    margin: 0 0 0.5rem 0;
+    color: transparent
+  }
+
+  .carousel div > a.slider-item.active {
+    background-color: #2A2A2A;
+  }
+
+  #slide-1 {
+    background-image: url('../img/carousel/slide_pres.jpg');
+    background-size: 150%;
+    background-position: center;
+  }
+  #slide-2 {
+    background-image: url('../img/carousel/Porton_garage_bmw.jpg');
+    background-position: center;
+  }
+  #slide-3 {
+    background-image:url('../img/index/Mosquitos01.jpg');
+    background-size: 100%;
+    background-position: center;
+  }
+  #slide-4 {
+    background-image: url('../img/index/Carrusel-4.jpg');
+    background-position: center;
+  }
+  #slide-5 {
+    background-image:url('../img/index/AdobeStock_496758663.jpg');
+  }
+
+.navgrid {
+    display: flex;
+    flex-wrap: wrap;
+
+}
+
+.grid-item {
+    padding: 4rem 8px;
+    flex-grow: 1;
+    flex-shrink: 1;
+    width: 23%;
+    min-width: 20ch;
+    min-height: 20ch;
+    position: relative;
+    background-size: cover;
+}
+
+.grid-item > a {
+    text-decoration: none;
+    height: 100%;
+    color:#fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    z-index: 3;
+    position: relative;
+}
+
+.grid-item#item1 {
+    background-image: url('../img/index/Portones01.jpg');
+}
+.grid-item#item2 {
+    background-image: url('../img/index/Mosquiteros01.png');
+    background-position: center;
+}
+.grid-item#item3 {
+    background-image: url('../img/index/AdobeStock_629857538.jpg');
+}
+.grid-item#item4 {
+    background-image: url('../img/index/AdobeStock_253360173.jpg');
+}
+.grid-item#item5 {
+    background-image: url('../img/index/AdobeStock_615724662.jpg');
+}
+.grid-item#item6 {
+    background-image: url('../img/index/AdobeStock_132951704.jpg');
+}
+.grid-item#item7 {
+    background-image: url('../img/index/AdobeStock_639764253.jpg');
+}
+.grid-item#item8 {
+    background-image: url('../img/index/AdobeStock_627289519.png');
+}
+
+.grid-item::before {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+   content: "";
+}
+
+.grid-item#item1::before {
+    background-color:rgba(0,0,0,0.3);
+}
+.grid-item#item2::before {
+    background-color:rgba(0,0,0,0.3);
+}
+.grid-item#item3::before {
+    background-color:rgba(0,0,0,0.3);
+}
+.grid-item#item4::before {
+    background-color:rgba(0,0,0,0.3);
+}
+.grid-item#item5::before {
+    background-color:rgba(56,114,87,0.5);
+}
+.grid-item#item6::before {
+    background-color:rgba(0,0,0,0.3);
+}
+.grid-item#item7::before {
+    background-color:rgba(214,183,136,0.5);
+}
+.grid-item#item8::before {
+    background-color:rgba(190,140,140,0.5);
+}
+
+.grid-item:hover::before {
+display: none;
+}
+
+.icon-button-xl {
+    border-radius: 50%;
+    background-color: #fff;
+    color: #2A2A2A;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 4rem;
+    outline: 2px solid #2A2A2A;
+    outline-offset: -1px;
+}
+.grid-item:hover .icon-button-xl,
+.icon-button-xl:hover {
+    background-color: #2A2A2A;
+    color: #fff;
+    outline: 2px solid #fff;
+    outline-offset: -1px;
+}
+.gridtitle {
+    color: #fff;
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 16px;
+    font-weight: 400;
+    font-family: Raleway, sans-serif;
+}
+
+/* Eficiencia */
+
+.iner-presentation {
+grid-column-start: 2;
+}
+
+.navpad {
+    height: 600px;
+    background-color: grey;
+    display: flex;
+    align-items: flex-end;
+}
+
+.nav-button-pad {
+    width:  50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: auto;
+    height: 100%;
+    position: relative;
+}
+
+.section-title {
+    width: 20ch;
+    box-sizing: border-box;
+    padding: 2rem 16px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.title_eficiencia {
+    background-color: rgba(0,0,0,0.2);
+}
+
+.section-title > h3 {
+    color: #fff;
+    text-align: right;
+    font-size: 1.5rem;
+    font-weight: 400;
+    border-bottom: 1px solid #B5C174;;
+    display: block;
+    width: 10ch;
+    padding-bottom: 4px;
+    line-height: 1rem;
+
+
+}
+
+.section-title > h3 > span {
+    font-size: 12px;
+}
+
+.section-title > p {
+    font-size: 12px;
+    text-align: center;
+    padding-top: 16px;
+    color: #fff;
+    font-weight: 300;
+}
+
+.buttons-container {
+    width: 350px;
+    height: fit-content;
+    padding: 16px;
+    box-sizing: border-box;
+    border-radius: 8px;
+    margin-top:1px;
+    display: flex;
+    flex-direction: row-reverse;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    gap:10px;
+}
+
+.buttons-container_eficiencia {
+    background-color: rgba(0,0,0,0.2);
+}
+
+a.navpad-button {
+    width: 150px;
+    height: 150px;
+    border-radius: 8px;
+    position: relative;
+    display: block flex;
+    cursor: pointer;
+    justify-content: center;
+    text-decoration: none;
+}
+
+a.navpad-button > .navpad-button__title {
+    position: absolute;
+    bottom:-4px;
+    font-size: 11px;
+    display: block;
+    background-color: #fff;
+    padding: 2px;
+    border-radius: 8px;
+    z-index:3;
+    min-width: 16ch;
+    text-align: center;
+    font-family: Raleway, sans-serif;
+}
+
+a.navpad-button:active > .navpad-button__title, a.navpad-button:visited > .navpad-button__title, a.navpad-button {
+    color:#2A2A2A;
+}
+
+.navpad-button > i {
+    color: #2A2A2A;
+    background-color:#fff;
+    font-size: 2rem;
+    display: flex;
+    margin: 4px;
+    border-radius: 50%;
+    align-self: flex-end;
+    margin-bottom: 20px;
+    z-index:3;
+    justify-content: center;
+    align-items: center;
+    outline: 2px solid #2A2A2A;
+    outline-offset: -1px;
+}
+
+a.navpad-button::after {
+    content:"";
+    position: absolute;
+    border-radius: 8px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index:2;
+    background-blend-mode:soft-light;
+}
+
+a.navpad-button:hover::after {
+    display: none;
+}
+a.navpad-button_eficiencia::after {
+    background-color: rgba(0,0,0,0.2);
+}
+
+
+a.navpad-button_mosquitero::after {
+    background-color: rgba(145,191,193,0.5);
+}
+
+a.navpad-button_motor::after {
+    background-color: rgba(193,116,117,0.7);
+}
+
+a.navpad-button_mosquiteros::after, a.navpad-button.button-xxl_mosquiteros::after {
+    background-color: rgba(144,193,167,0.7);
+}
+
+.navpad-button:hover > i {
+    color: #fff;
+    background-color:#2A2A2A;
+    outline: 2px solid #fff;
+    outline-offset: -1px;
+}
+
+.intro_eficiencia {
+    margin-top:15px;
+    border-top:150px solid #B5C174;
+    border-bottom:25px solid #B5C174;
+    padding:30px 30%;
+}
+
+.intro_eficiencia > p {
+    color:#767B3B;
+    font-size:12px;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 32px;
+}
+
+.section-grid {
+    display: flex;
+   /*  grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); */
+    /*height: 50vh;*/
+    background-color: #F2F2F2;
+    text-align: center;
+    flex-wrap: wrap;
+}
+
+.section-grid h6, .section_header, .description_title {
+    font-size: 18px;
+    padding: 3rem 0;
+    color:#282828;
+    max-width: 35ch;
+    font-weight: 500;
+    font-family: Raleway, sans-serif;
+}
+
+.section-grid p {
+    padding: 20px 30px;
+    color:#2A2A2A;
+    font-weight: 300;
+    line-height: 1.5rem;
+}
+
+.section-grid > div, .description-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 50%;
+    min-width: 400px;
+    min-height: 20rem;
+    flex-grow: 1;
+    flex-shrink: 1;
+    padding-bottom: 2rem;
+}
+
+.section-grid > .img, .grid-logistica > .img {
+    background-size: cover;
+    background-position: bottom center;
+}
+#eficiencia-compromiso {
+    background-image: url('../img/EFICIENCIA/Alucofer_Recycled.jpg')
+}
+
+.section-grid > div > div{
+    background-color: #fff;  
+}
+
+.section-grid > div > div p {
+    color: #767B3B;
+}
+.icon-button-l {
+    border-radius: 50%;
+    color: #2A2A2A;
+    background-color:#fff;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 3rem;
+    outline: 2px solid #2A2A2A;
+    outline-offset: -1px;
+}
+
+.icon-button-l:hover {
+    color: #fff;
+    background-color:#2A2A2A;
+    outline: 2px solid #fff;
+    outline-offset: -1px;
+}
+.main-text {
+    margin-left: 6%;
+    scroll-behavior: smooth;
+}
+.main-text h1, .main_title {
+    color:#2A2A2A;
+    font-size: 2.5rem;
+    font-weight: 500;
+    display: block;
+    width: 100%;
+    text-align: left;
+    padding: 20px 0 20px 30px;
+    font-family: Raleway, sans-serif;
+}
+
+
+
+/* Servicios*/
+
+.intro_servicios {
+    margin-top:15px;
+    border-top:150px solid #A6A4C1;
+    padding:30px 30%;
+}
+
+.section_servicios {
+    margin-top: 10%;
+    border-top:25px solid #A6A4C1;
+    padding-left: 6%;
+    margin-left: unset;
+}
+
+.title_productos_servicios > h3, .title_productos_servicios > p {
+    color:#2a2a2a;
+}
+
+.title_productos_servicios > h3 {
+    border-bottom: 1px solid #A6A4C1;
+}
+
+.section_servicios.first_service {
+    margin-top: 16px;
+}
+
+.intro_servicios > p {
+    color:#AC6071;
+    font-size:12px;
+    text-transform: uppercase;
+    text-align: center;
+    line-height: 32px;
+}
+.unset-top {
+    margin-top: unset;
+}
+
+
+
+.grid-logistica {
+display: flex;
+align-items: stretch;
+width: 70%;
+margin:0 auto;
+}
+
+div.grid-logistica > div.grid-logistica_content {
+    gap: 1rem;
+}
+
+div.grid-logistica > div.grid-postventa_content {
+    padding-top: 3rem;
+    box-sizing: border-box;
+}
+
+.title_servicios > h3 {
+    border-bottom:2px solid #90C1A7;
+    padding-bottom: 16px;
+}
+
+.grid-logistica > .img {
+    background-size: cover;
+    background-position: bottom center;
+    width: 50%;
+   /*  height: 500px; */
+}
+
+.grid-logistica > div:first-of-type {
+    width: 50%;
+    background-color: #EFEEEE;
+    padding:30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 20px;
+    align-items: center;
+}
+
+/* MOSQUITEROS*/
+.title_productos {
+background-color: rgba(255, 255, 255, 0.5);
+backdrop-filter: blur(5px);
+/* width: 150px; */
+}
+
+.title_productos > h3 {
+    border-bottom:1px solid #90C1A7;
+    width: unset;
+    font-family: Raleway, sans-serif;
+    font-weight: 500;
+}
+
+/* .title_productos > h3 > span {
+    padding-bottom: 16px;
+} */
+
+.title-padding-bottom {
+    padding-bottom: 1rem !important;
+}
+
+.buttons-container_productos {
+    background-color: rgba(255, 255, 255, 0.4);
+    backdrop-filter: blur(5px);
+}
+
+.intro-mosquiteros {
+    border-top:150px solid #91BFC1;
+    border-bottom:25px solid #91BFC1;
+}
+
+.intro-mosquiteros > p {
+    color: #2D8289;
+}
+
+.main_mosquiteros {
+    margin-left:0;
+}
+
+.grid_mosquiteros {
+    position: relative;
+    display:flex;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+.grid_mosquiteros > div {
+    width: 100%;
+    background-color: #EFEEEE;
+}
+
+.grid_mosquiteros > div > div, .grid_mosquiteros > div:first-of-type {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 30%;
+    padding:20px 30px;
+    padding-left: 20%;
+    gap: 20px;
+}
+
+.grid_mosquiteros p {
+    width:90%;
+    text-align: left;
+    line-height: 1.5rem;
+}
+
+.grid_mosquiteros > div:first-of-type {
+    background-color:#fff;
+}
+
+.grid_mosquiteros > div:first-of-type > img {
+    width: 40%;
+    height: auto;
+    margin-top: auto;
+    align-self: flex-start;
+}
+
+
+.grid_mosquiteros > .img_mosquitero {
+    position: absolute;
+    bottom:0;
+    right: 20%;
+    width: 450px;
+    height: 700px;
+    overflow: hidden;
+    z-index:2;
+    padding:unset;
+}
+
+.img_mosquitero > img {
+    height: 100%;
+    width: auto;
+}
+
+.main_title {
+    padding-left: unset;
+}
+
+.grid_mosquiteros .icon-button-l {
+    margin: 0 auto;
+}
+
+/*Motores*/
+
+.grid_con-bottom {
+    width: 100%;
+    height: 700px;
+    display: flex;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+
+}
+
+.grid_motores {
+    background: url("../img/persianas_motores_intro.png");
+    border-bottom:8rem solid #E7ADAD;
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: right;
+}
+
+.intro-motores {
+    border-top:150px solid #C17475;
+    border-bottom:25px solid #C17475;
+}
+
+.intro-motores > p {
+    color: #B35D64;
+}
+
+.grid_con-bottom > div {
+    width: 25%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 32px;
+    background-color: #EFEEEE;
+    margin-left: 5%;
+    margin-top: auto;
+    margin-bottom: -8rem;
+}
+
+/*Tablas*/
+
+.grid_tables {
+    margin: auto 6%;
+    display: flex;
+flex-direction: row;
+}
+
+.grid_tables > div:first-of-type {
+    width: 60%;
+}
+
+.grid_tables > div:last-of-type {
+    width: 40%;
+}
+.grid_tables > div:first-child >img {
+    width: 80%;
+    height: auto;
+}
+
+.grid_tables h1 {
+    font-family: Raleway, sans-serif;
+    font-size: 45px;
+    text-align: right;
+    font-weight: 500;
+}
+.grid_tables h1 > span {
+    font-family: Raleway, sans-serif;
+    font-size: 30px;
+}
+.table_header {
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+}
+.breadcrumbs {
+    width: 100%;
+    padding-right: 6%;
+    display: block;
+    text-align: right;
+    color: #000;
+    font-size: 14px;
+    font-weight:500;
+    text-decoration: none;
+    box-sizing: border-box;
+    margin-bottom: 20px;
+}
+
+.breadcrumbs:hover {
+    text-decoration: underline;
+}
+
+.breadcrumb_header {
+    width: 100%;
+    display: flex;
+    text-align: right;    
+    box-sizing: border-box;
+    margin-bottom: 10px;
+    align-items: center;
+    justify-content: flex-end;
+}
+
+.breadcrumb_header > a {
+    display: block;
+    color: #000;
+    font-size: 12px;
+    font-weight:500;
+    text-decoration: none;
+}
+
+.breadcrumb_header > a:hover {
+    text-decoration: underline;
+}
+
+.link_descarga {
+    display: flex;
+    flex-direction: row;
+    width: 150px;
+    font-size: 12px;
+    height: 3rem;
+    text-align: center;
+    color:#000;
+    text-decoration: none;
+    font-weight: 500;
+    margin-right: auto;
+}
+
+.link_descarga > img {
+    height: auto;
+}
+
+.items {
+    padding: 40px 0
+}
+
+.items > p {
+font-size: 20px;
+font-weight: 300;
+text-align: right;
+}
+
+ol.two-columns {
+    -moz-column-count: 2;
+    -moz-column-gap: 20px;
+    -webkit-column-count: 2;
+    -webkit-column-gap: 20px;
+    column-count: 2;
+    column-gap: 30%;
+    margin-left: auto;
+}
+
+.two-columns > li {
+margin-bottom:20px;
+font-size: 12px;
+}
+
+.table_img_grid {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+
+.table_img_grid img {
+    width: 50%;
+    height: auto;
+}
+
+.dt {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.exclusivo {
+    width: 150px;
+    height: auto;
+    margin-right: auto;
+}
+
+.value_table {
+    width: 90%;
+    height: auto;
+    border:1px solid #2A2A2A;
+    align-self:flex-end;
+    margin-left: auto;
+    margin-top: 8%;
+}
+.items_container {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: unset;
+    justify-content: space-between;
+}
+
+.ficha_tecnica {
+    margin-left: 6%;
+    margin-top: 20px;
+    margin-bottom: 20px; 
+    align-items: center;
+    width: 100%;
+    gap:8px;
+}
+.ficha_tecnica > img {
+    height: 60px;
+}
+.dt > .acabado_pvc45 {
+    width: 37%;
+}
+
+.dt_guia {
+    display: flex;
+    align-items: center;
+    border: unset;
+}
+
+.dt-mosquiteros {
+    justify-content: flex-end;
+    gap: 40px;
+}
+.dt-mosquiteros > .link_descarga > img {
+    height: 100%;
+    width: auto;
+}
+
+.value_table.value_table_mosquiteros {
+    border: unset;
+    width: 75%;
+}
+
+.img-holder {
+    width: 60%;
+    height: 90vh;
+    background-size:cover;
+    background-position: center;
+}
+
+#img-lp42 {
+    background-image: url('../img/lamas/LAMA_LP42.png');
+}
+
+#centralita {
+    background-image: url('../img/motores/centralita.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.table_img_grid .tecnologia-centralita {
+    width: 100%;
+}
+
+.dt.dt-centralita {
+    justify-content: unset;
+}
+
+#img-lp43 {
+    background-image: url('../img/lamas/LAMA-LP43C.png');
+}
+
+#img-lp55 {
+    background-image: url('../img/lamas/LAMA-LP55C1.png');
+}
+
+#img-pvc45 {
+    background-image: url('../img/lamas/LAMA-PVC45.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+
+#img-ab39 {
+    background-image: url('../img/lamas/ab39.png');
+}
+
+/*-----*/
+a.navpad-button.button-xxl, a.navpad-button.button-xxl::after {
+    width: 15rem;
+    height: 15rem;
+    border-radius: 3rem;
+}
+a.navpad-button.button-xxl > i {
+   font-size: 45px; 
+}
+
+a.navpad-button.button-xxl >.navpad-button__title {
+    font-size: 25px;
+    border-radius: 20px;
+    bottom: -16px;
+}
+
+.menu_productos {
+    display: flex;
+    gap: 10%;
+    padding: 30px 6%;
+    background-color: #EFEEEE;
+}
+
+.section-nth-header {
+    margin-top: 40px;
+    border-top-width:25px;
+    border-top-style:solid;
+}
+
+.padding-10 {
+    padding:0 10%;
+}
+
+.section-first-header {
+    margin-top:10px;
+    border-top-width:150px;
+    border-top-style:solid;
+}
+
+.section-color-header_motor-persiana {
+    border-top-color:  #E78F8F;
+}
+
+.section-color-header_descargas {
+    border-top-color:  #A6A4C1;
+}
+
+.breadcrums-motor-persiana {
+    color: #C17475;
+}
+
+.prod_titulo {
+    margin-top: 40px;
+}
+
+.button-xxl > i {
+    position: absolute;
+    bottom:26%;
+    right: -80px;
+    width: 15%;
+    height: 15%;
+}
+
+a.button-xxl::after {
+    content:"";
+    position: absolute;
+    border-radius: 8px;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index:2;
+}
+
+a.button-motor-persiana::after {
+    background-color: rgba(231,143,143,0.5);
+}
+
+a.button-xxl:hover::after {
+    display: none;
+}
+
+.buttons-container_motor-persiana {
+    border: 1px solid #B2B3B5;
+}
+.title_productos .title_motores-persiana{
+    border-bottom-color: #C17475;
+}
+.closing_p {
+    width: 100;
+    padding: 60px 0 120px 0;
+}
+.closing_p > p {
+    max-width: 28ch;
+    text-align:right;
+    margin: 0 auto;
+    font-size: 20px;
+    font-family: Raleway, sans-serif;
+}
+
+.navpad-button.descubri-mas {
+    background: unset;
+    flex-direction: column;
+    text-align: center;
+    font-size: 10px;
+    font-weight: 500;
+    pointer-events: none;
+}
+.navpad-button.descubri-mas > i {
+    background-color: unset;
+    align-self:center;
+    padding: unset;
+    margin-bottom: unset;
+    font-size: 14px;
+}
+
+.navpad-button.descubri-mas > i:first-of-type{
+    margin-top: 10px;
+}
+
+.descubri-mas_motor-persianas {
+    color: #E78F8F;
+}
+
+.descubri-mas_motor {
+    color: #C17475;
+}
+
+.title_productos .title_motores-portones {
+    border-bottom-color: #FFC785;
+}
+
+a.button-motor-portones::after {
+    background-color: rgba(255,199,133,0.5);
+}
+
+.descubri-mas_motor-portones {
+    color: #997750;
+}
+
+.breadcrums-motor-portones {
+    color: #FFC785;
+}
+
+.section-color-header_motor-portones {
+    border-top-color:  #FFC785;
+}
+
+.section-subtitle {
+    font-size:12px;
+}
+
+.title_productos .section-subtitle {
+    display: block;
+}
+
+.menu-productos_accesorios {
+    margin-top: 20px;
+}
+
+/*----*/
+
+.nav-button_pad-cajones {
+    width: 100%;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+}
+.button-container_cajones {
+  border: unset;
+align-self:flex-end;
+margin-left: 10px;
+margin-bottom: 10px;
+}
+
+.title-menu_productos {
+    width: 30%;
+    height: 80%;
+    align-self: flex-end;
+    margin-top: auto;
+}
+
+.nav-button_pad-accesorios {
+margin-left: unset;
+width: 40%;
+}
+
+.intro_persianas, .section-nth-header_persiana {
+    border-color: #B1BBBE;
+}
+
+.intro_persianas > p {
+    color: #6B797F;
+}
+
+.navpad-button.descubri-mas > .material-symbols-outlined {
+    font-size: 2rem;
+}
+
+.navpad-button.descubri-mas.descubri-mas_persianas, .navpad-button.descubri-mas.descubri-mas_persianas  > .material-symbols-outlined {
+    color: #2A2A2A;
+}
+
+.navpad-button.descubri-mas.descubri-mas_persianas:hover, .navpad-button.descubri-mas.descubri-mas_persianas:hover  > .material-symbols-outlined {
+    color: #fff;
+}
+
+.title-productos_persiana > h3 {
+    border-bottom: 1px solid #B1BBBE;
+    color:#2A2A2A;
+    padding-bottom:1rem;
+}
+
+.title-productos_persiana > p {
+    color:#2A2A2A;
+}
+
+/* .buttons-container_persianas a.navpad-button .navpad-button__title {
+background-color: #707070;
+color: #fff;
+}
+
+.buttons-container_persianas a.navpad-button:hover .navpad-button__title {
+    background-color: #FFF;
+    color: #2A2A2A;
+    } */
+
+h6.description_title_description {
+    padding: unset;
+    color: #282828;
+    padding-top: 2rem;
+}
+
+.description_text_description  {
+    max-width: 35ch;
+}
+
+.grid-logistica > div.description-product_column  {
+    max-width: 40ch;
+    background-color: unset;
+    gap: unset;
+    color: #707070;
+}
+
+div.description-product_column > p {
+    padding: unset;
+    line-height: 1.5rem;
+}
+
+.grid-logistica_persianas1 {
+    width: 100%;
+    background: linear-gradient(
+    to bottom,
+    #fff 0%,
+    #fff 25%,
+    #EFEEEE 25%,
+    #EFEEEE 100%
+  );
+}
+
+.img_description {
+    height: 20%;
+    width: auto;
+    margin-bottom: auto;
+}
+
+.grid-logistica_persianas1 > .img {
+    max-width: 30rem;
+    margin-right: 8rem;
+    margin-left: auto;
+    margin-bottom: 2rem;
+    flex-grow: 1;
+    flex-shrink: 1;
+    height: unset;
+}
+
+.container-portada_persianas {
+    width: 100%;
+    background: linear-gradient(
+    to top,
+    #B1BBBE 0%,
+    #B1BBBE 30%,
+    #fff 30%,
+    #fff 100%
+  );
+  flex-wrap: wrap;
+  display: flex; 
+  justify-content: space-around;
+  align-items:center;
+  row-gap: 1rem;;
+  padding: 1rem 0 2rem 0;
+}
+
+.portada_sistema_persianas {
+width: 23%;
+min-width: 250px;
+background-color: #EFEEEE;
+border-radius: 2rem;
+display: flex;
+padding: 1rem;
+height: 18rem;
+box-sizing: border-box;
+}
+
+.portada_sistema_persianas >.portada-sistema-persianas_content > a.icon-button-l,
+.description-product_column > a.icon-button-l,
+.portada_sistema_portones a.icon-button-l
+{
+    outline: unset;
+    background: radial-gradient(#fff 50%, rgba(255,255,255,0)50%);
+    width: fit-content;
+    text-decoration: none;    
+}
+
+
+.portada_sistema_persianas >.portada-sistema-persianas_content > a.icon-button-l:hover,
+.description-product_column > a:hover.icon-button-l,
+.portada_sistema_portones a.icon-button-l:hover {
+    background: radial-gradient(#2a2a2a 50%, rgba(255,255,255,0)50%);
+    color: #fff;
+}
+
+.portada_sistema_persianas >.portada-sistema-persianas_content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: auto;
+    width: 50%;
+    gap: 0.7rem;
+} 
+.portada_sistema_persianas >.portada-sistema-persianas_content > p, .card-contacto p {
+    font-size: 12px;
+    font-weight: 300;
+    text-align: center;
+}
+
+.portada-sistema-persianas_content > a.icon-button-l {
+    margin-top:auto;
+}
+
+.portada-sistema-persianas_content.blur {
+    backdrop-filter: blur(5px);
+}
+
+.portada-sistema-persianas_content > h5 {
+    display: block;
+    width: 100%;
+    text-align: center;
+    background-color: #fff;
+    border-radius: 1rem;
+    padding: 0.25rem 0;
+    font-size: 1rem;
+    font-weight: 500;
+    font-family: Raleway, sans-serif;
+}
+
+#descubre-cajones {
+    padding-bottom: unset;
+}
+#descubre-cajones > .portada-sistema-persianas_content {
+    background: linear-gradient(
+        to bottom,
+        rgba(255,255,255,0) 0%,
+        rgba(255,255,255,0)  18%,
+        rgba(255,255,255,0.3)  18%,
+        rgba(255,255,255,0.3)  100%
+      );
+      padding-top: 3rem;
+}
+
+#descubre-cajones > .portada-sistema-persianas_content > h6 {
+    width: 12ch;
+    font-size: 1rem;
+    font-family: Raleway, sans-serif;
+    font-weight: 300;
+    text-align: center;
+    padding-bottom: 1rem;
+}
+
+#descubre-cajones > .portada-sistema-persianas_content > h6 > span {
+ color: #B1BBBE;   
+}
+
+.title_producto-portones > h3 {
+    border-bottom: 1px solid #BE9E6C;
+}
+
+.title_producto-motor > h3 {
+    border-bottom: 1px solid #C17475;
+    color: #2A2A2A
+}
+
+.title_producto-mosquitero > h3 {
+    border-bottom: 1px solid #90C1A7;
+    color: #2A2A2A
+}
+
+.title_producto-motor > p, .title_producto-mosquitero > p {
+    color: #2A2A2A
+}
+
+a.navpad-button_portones::after {
+    background-color: rgba(255,201,140,0.5);
+}
+
+.intro_portones {
+    border-color: #BF9960;
+}
+
+.section-nth-header_portones {
+    border-color: #BF9960;
+}
+
+.intro_portones > p {
+    color: #AA671C;
+}
+
+.grid_portones {
+    background: url("../img/portones/LuxeEsp_PortonGarageCoche.jpg");
+    background-size:contain;
+    background-repeat: no-repeat;
+    border-bottom:8rem solid #BF9960;
+    background-position: right;
+}
+
+.grid_portones >.description-product_column p, .grid_motores >.description-product_column p {
+    color: #2A2A2A;
+    font-weight: 300;
+    text-align: center;
+    padding: 1rem 1rem 0.25rem 1rem;
+    line-height: 1.5rem;
+}
+.grid-logistica_persianas1 div.description-product_column > p {
+    text-align: left;
+    padding:1rem;
+}
+
+.grid-logistica_persianas1 div.description-product_column > h6 {
+    text-align: left;
+    align-self: flex-start;
+    padding-left:1rem;
+}
+
+.grid_portones > div {
+    margin-bottom: -2rem;
+}
+
+.container-portada_portones {
+    width: 100%;
+    background: linear-gradient(
+    to right,
+    #fff 0%,
+    #fff 70%,
+    #BF9960 70%,
+    #BF9960 100%
+  );
+  flex-direction:column;
+  padding:2.5rem 2rem;
+  gap:2rem;
+  box-sizing: border-box;
+}
+
+.portada_sistema_portones {
+    background-color: #EFEEEE;
+    width: 80%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 20rem;
+}
+
+.breadcrumbs-mosquiteros {
+    color: #90C1A7;
+}
+
+.breadcrumbs-header {
+    align-self: flex-start;
+    margin-right: auto;
+    width: unset;
+    padding: 1rem;
+    font-size: .6rem;
+    font-weight: 400;
+}
+
+.breadcrumb-header_inverse {
+    color: #fff;
+}
+
+.section-color-header_mosquiteros {
+    border-top-color: #90C1A7;
+}
+
+.portada_sistema_persianas > .card-contacto {
+    width: 90%;
+    margin-left: unset;
+
+}
+.portada_sistema_persianas.contacto {
+    width: 20%;
+    justify-content: center;
+    height: fit-content;
+    min-height: 200px;
+}
+.portada_sistema_persianas > .card-contacto > .data-container {
+    align-self: flex-start;
+    font-size:0.7rem;
+    display: inline-flex;
+    align-items: center;
+    gap:1ch;
+}
+.portada_sistema_persianas > .card-contacto > .data-container > p {
+max-width: 30ch;
+word-break: normal;
+text-align: left;
+}
+
+.portada_sistema_persianas > .card-contacto > .data-container > h6 {
+    font-size: 10px;
+    font-weight: 500;
+}
+
+.whatsapp-button {
+    width: 4rem;
+    height: 4rem;
+    border-radius:50%;
+    display: block flex;
+    cursor: pointer;
+    background-color: #25D366;
+    text-align: center;
+    font-size:2rem;
+    line-height: 0;
+    align-items:center;
+    justify-content: center;
+    text-decoration: none;
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem;
+}
+
+.container-contacto {
+    background: linear-gradient(
+    to right,
+    #B1BBBE 0%,
+    #B1BBBE 20%,
+    #fff 20%,
+    #fff 100%
+  );
+}
+
+.whatsapp-button > i {
+    color: #fff;
+}
+
+.whatsapp-button:hover {
+    background-color: #169d49;
+}
+
+.under_construction {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+    padding: 3rem;
+    margin: 3rem;
+    background-color:#EFEEEE;
+}
+
+.under_construction > span {
+    font-size: 6rem;
+    color: #2a2a2a;
+}
+
+.under_construction > h1 {
+    font-size: 3rem;
+    font-family: Raleway, sans-serif;
+    color: #2a2a2a;
+}
+
+.breadcrumb_motor-persiana {
+    color: #C17474;
+}
+
+.title_productos_nopadding > h3 > span {
+    padding-bottom: unset;
+}
+
+.title_productos.title_accesorios-porton > h3 {
+    border-bottom-color: #C3A780;
+}
+
+.page-nav {
+    display: flex;
+    flex-direction: column;
+    align-self: flex-end;
+}
+
+.page-nav.nav-lamas > .breadcrumbs {
+    text-align: right;
+    margin: unset;
+    width: 100%;
+    padding-bottom: 1rem;
+    color: #fff;
+}
+
+.section-color-header_persianas-lamas {
+    border-top-color: #C4BCA5;
+}
+
+.section-color-header_persianas-cajones {
+    border-top-color: #B1BEB8;
+}
+
+a.navpad-button_persiana-lamas::after {
+    background-color: rgb(196,188,165);
+    mix-blend-mode: color;
+}
+
+a.navpad-button_persiana-cajones::after {
+    background-color: #B1BEB8;
+    mix-blend-mode: color;
+}
+
+
+.breadcrumbs_persianas-cajones {
+    color:#B1BEB8;
+}
+.breadcrumbs_persianas-lamas {
+    color:#C4BCA5;
+}
+
+.title_persiana-lamas {
+    gap: 2rem;
+    align-items: flex-end;
+
+    backdrop-filter: blur(5px);
+    width: 25%;
+    box-sizing: border-box;
+    padding-right: 2rem;
+}
+
+.color_persiana-lamas {
+    background-color: rgba(0,0,0,0.2);
+}
+
+.title_persiana-lamas > h3 {
+    font-size: 2.5rem;
+    border-bottom: unset;
+}
+
+.title_persiana-lamas > p {
+    font-size:1rem;
+    max-width: 25ch;
+    text-align: right;
+    text-wrap: pretty;
+}
+
+.title_persiana-lamas > .descubri-mas {
+    color: #FFF;
+}
+
+.title_persiana-lamas > .descubri-mas:hover {
+    color:#C4BCA5;
+}
+
+.title_persiana-lamas > img {
+    width: 10rem;
+    height: auto;
+}
+
+.color_persiana-cajon {
+    background-color: rgba(255,255,255,.4);
+}
+
+.title_persiana-lamas > p, .title_persiana-lamas > h3, .color_persiana-cajon > .descubri-mas {
+    color:#2A2A2A;
+}
+
+.color_persiana-cajon > .descubri-mas:hover {
+    color: #FFF;
+}
+.title_producto-portones > .dark-color, .section-title .dark-color {
+    color: #2a2a2a;
+}
+
+.breadcrumb-header_accesorios {
+    align-self:flex-end;
+    margin-right:15%;
+}
+
+.colorful-header > h3, .colorful-header > p, .breadcrumb_persiana-accesorios {
+    color: #A5B6C4;
+}
+
+.title_productos.colorful-header > h3 {
+    border-bottom-color: #A5B6C4;
+}
+
+.section-color-header_persianas-accesorios {
+    border-top-color: #A5B6C4;
+}
+
+/*GUIAS*/
+
+.guias-persianas {
+    background-image: url('../img/guias/Alucofer_guiaRecambio.jpg');
+    background-size: cover;
+    background-position: center;
+}
+
+/* #portones > .nav-button-pad {
+    backdrop-filter: blur(10px);
+} */
+
+.guias-persiana > .nav-button-pad .title-menu_productos p {
+    color: #2a2a2a;
+}
+
+.section-title > .border_guia {
+    border-bottom-color: #C4ADA5;
+}
+
+.breadcrumb_guia-persiana {
+    color: #C4ADA5;
+}
+
+.intro_productos {
+    margin-top:15px;
+    border-top:150px solid #AC7D88;
+    border-bottom:25px solid #AC7D88;
+    padding:30px 30%;
+}
+
+#guias-persiana > .nav-button-pad .title-menu_productos h3 .section-subtitle {
+    padding-top:.5rem;
+    padding-bottom: unset;
+}
+
+#guias-persiana > .nav-button-pad .nav-lamas {
+    position: absolute;
+    left: 1rem;
+}
+
+#guias-persiana > .nav-button-pad .nav-lamas > .breadcrumbs {
+    font-size: .75rem;
+    font-weight: 500;
+}
+
+#guias-persiana .descubri-mas {
+    width: fit-content;
+    height: fit-content;
+}
+
+.section-color-header_guia-persiana {
+    border-top-color: #C4ADA5;
+}
+
+.productos-destacados {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+}
+.destacados-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.productos-destacados > h1 {
+    display: block;
+    width: 100%;
+    color: #2A2A2A;
+    font-size: 2.5rem;
+    font-weight: 500;
+    padding: 20px 0 20px 30px;
+    font-family: Raleway, sans-serif;
+    box-sizing: border-box;
+    padding-top: 7rem;
+}
+
+.destacados-item {
+    display: flex;
+    flex-direction: column;
+    max-width: 20rem;
+    min-height: 10rem;
+    align-items: center;
+    box-sizing: border-box;
+    padding:1rem;
+    gap: 1rem;
+    text-decoration: none;
+}
+
+.video-item {
+    max-width: unset;
+}
+
+.img-destacados {
+ width: 80%;
+ height: auto;
+}
+.destacados-title { 
+    width: 100%;
+    color: #2A2A2A;
+    font-size: 1.5rem;
+    font-weight: 500;
+    font-family: Raleway, sans-serif;
+    text-align: center;
+}
+
+.img-recomendados {
+    height: 6rem;
+    width: auto;
+}
+
+.destacados-bajada {
+    font-size:.75rem;
+    color: #2a2a2a;
+    font-weight: 300;
+    text-align: left;
+
+}
+
+.backlight {
+    width: 100%;
+    height: auto;
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+}
+.backlight > img {
+    width: 90%;
+    height: auto;
+}
+
+/*Portadas*/
+
+#eficiencia-energetica {
+    background-image: url('../img/EFICIENCIA/AdobeStock_300150072.jpg');
+    background-repeat: no-repeat;
+    background-size:100%;
+    background-position: center;
+}
+
+#persianas {
+    background-image: url('../img/PERSIANAS/LuxeEsp_Persianas.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+#persianas-img {
+    background-image: url('../img/PERSIANAS/AdobeStock_201254408.jpg');
+}
+
+#portones {
+    background: url('../img/portones/LuxeEsp_PortonesBackground.png'), linear-gradient(to right, #fff, #e5e1d0);
+    background-repeat: no-repeat;
+    background-size:auto 100%;
+    background-position: left;   
+}
+
+#cajones-portada {
+    background-image: url('../img/cajones/Alucofer_Tapa4P.jpg');
+    background-repeat: no-repeat;
+    background-size:100%;
+    background-position: center;
+}
+#mosquiteros {
+    background-image: url('../img/mosquiteros/LuxeEsp_Mosquiteros02.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+#mosquitero-portada {
+    background-image: url('../img/mosquiteros/LuxeEsp_Mosquiteros04.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+#mosquiteros-img {
+background-image: url('../img/mosquiteros/LuxeEsp_Mosquiteros03.jpg');
+background-repeat: no-repeat;
+background-size:cover;
+background-position: left;
+}
+
+#lamas-portones {
+    background-image: url('../img/portones/Alucofer_tablillasPorton.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+
+#accesorios-porton {
+    background-image: url('../img/portones/Render_AccesoriosPorton.png');
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    background-color: #fff;
+}
+
+#motores {
+    background-image: url('../img/portadas/motores.png');
+    background-repeat: no-repeat;
+    background-size:110%;
+    background-position: center;
+}
+
+#cajon-porton {
+    background-image: url('../img/portones/AdobeStock_40071906.jpg');
+    background-size: cover;
+    background-position: top;
+}
+
+#lamas {
+    background-image: url('../img/portadas/lamas.jpg');
+   /*  background-repeat: no-repeat; */
+    background-size:100%;
+}
+
+#lamas-portada {
+    background-image: url('../img/lamas/AdobeStock_356214093.jpg');
+    /*  background-repeat: no-repeat; */
+     background-size:cover;
+}
+
+#productos-portada {
+    background-image: url('../img/index/Carrusel-4.jpg');
+    background-size: cover;
+    background-position: center; 
+}
+
+#accesorio-persianas {
+    background-image: url('../img/accesorios-compacto/ENR-EMBUTIR.png'), linear-gradient(to right, #D4D4D4, #AAB9C5 );
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    background-position: right;
+}
+#guia-porton {
+    background: url('../img/guias/GUIA-PORTON-CAJON.png'), url('../img/guias/GUIA-PORTON-RECAMBIO.png'), #fff;
+    background-repeat: 
+        no-repeat,
+        no-repeat;
+    background-position: top 20px left -150px, top -20px right 0;
+    background-size: auto 200% , auto 150%;
+}
+
+#portada-descargas {
+    background-image: url('../img/DESCARGAS/AdobeStock_266725631.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#portada-servicios {
+    background-image: url('../img/index/AdobeStock_627289519.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: left;
+    background-color: #fff;
+}
+
+#motor-persiana {
+    background-image: url('../img/motores/Render_MotoresPersiana.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#motores-portones-1 {
+    background-image: url('../img/motores/AdobeStock_64607584.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; 
+}
+
+#img-productos {
+    background-image: url('../img/PRODUCTOS/AdobeStock_438082558.jpg');
+}
+
+#logistica-img {
+    background-image: url('../img/SERVICIOS/LuxeArg_Logistica.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#postventa-img {
+    background-image: url('../img/SERVICIOS/AdobeStock_97394238.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#sucursales-img {
+    background-image: url('../img/SERVICIOS/AdobeStock_80006935.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#arquitectos-img {
+    background-image: url('../img/SERVICIOS/AdobeStock_637107201.jpg');
+    background-size:contain;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+#contacto-img {
+    background-image: url('../img/SERVICIOS/AdobeStock_80006935.jpg') ;
+}
+
+#sucursales-btn {
+    background-image: url('../img/SERVICIOS/AdobeStock_304527162.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+#representantes-btn {
+    background-image: url('../img/index/AdobeStock_627289519.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.placeholder {
+    background-image: url('../img/placeholder.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.img-descargas {
+    height: 70px;
+    width: auto;
+}
+.align-left {
+    align-items: flex-start;
+    justify-content: flex-start;
+}
+
+footer {
+    display: flex;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    height: fit-content;
+    box-sizing: border-box;
+    padding:1rem;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;
+    z-index:10;
+    margin-top: 2rem;
+    gap: 1rem;
+    box-shadow: 0 -2px 5px 0 rgba(0,0,0,0.2);
+    font-size: 12px;
+}
+
+footer > img {
+    height: 1.5rem;
+    width: auto;
+}
+
+strong {
+    font-weight: 500;
+}
+
+.padding-left-large {
+    padding-left: 60px !important;
+    box-sizing: border-box;
+}
+
+.padding-left-large-title {
+    padding-left: 90px !important;
+}
+
+.intro {
+    text-transform: uppercase;
+}
+
+.intro-descargas > p {
+    color: #7272A5
+}
+
+.portones-text {
+    display: flex;
+    flex-direction: column;
+    gap:1rem;
+    padding:1rem;
+    width: 50%;
+    box-sizing: border-box;
+}
+
+.portones-text > a {
+    align-self: center;
+}
+.portones-text > .description_title {
+    padding: 1rem 0;
+    text-align: center;
+    width: 100%;
+    max-width: unset;
+}
+
+.portones-text > p {
+    color: #2A2A2A;
+    font-weight: 300;
+    text-align: center;
+    line-height: 1.5rem;
+}

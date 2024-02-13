@@ -1,0 +1,68 @@
+.button-accesorio-porton { 
+/* background: url('../img/lamas/LAMAS-PORTON.png'); */
+background-repeat: no-repeat;
+background-size: 150%;
+background-position: center;   
+}
+
+.button-accesorio-porton:hover {
+    background-color: #fff;
+}
+.accesorios {
+    background-image: url('../img/portones/AdobeStock_56514757.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.rodillos {
+    background-image: url('../img/accesorios-porton/RODILLO_v02.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.anillos {
+    background-image: url('../img/accesorios-porton/ANILLO-COMP.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.rodamientos {
+    background-image: url('../img/accesorios-porton/ROD.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.tapones {
+    background-image: url('../img/accesorios-porton/TAPON-LP75.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.placa-rule {
+    background-image: url('../img/accesorios-porton/PLACA-RODAMIENTO-ACEITADO.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.placa {
+    background-image: url('../img/accesorios-porton/PLACA-ROD.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.testero {
+    background-image: url('../img/accesorios-porton/TESTERO-300.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.tirantes {
+    background-image: url('../img/accesorios-porton/TIRANTE.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.contera-teles {
+    background-image: url('../img/accesorios-porton/CONTERA-TELESCOPICA.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.escuadras {
+    background-image: url('../img/accesorios-porton/ESCUADRA.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+

@@ -1,0 +1,85 @@
+.cajones { 
+background: url('../img/cajones/pvc_1_extruida.png'), #B1BBBE;
+background-repeat: no-repeat;
+background-size:150%;
+background-position: center;   
+}
+
+.cajones:hover {
+background: url('../img/cajones/pvc_1_extruida.png'), #fff;
+background-repeat: no-repeat;
+background-size:150%;
+background-position: center;
+}
+
+.lamas { 
+background: url('../img/lamas/ab39.png'), #B1BBBE;
+background-repeat: no-repeat;
+background-size:150%;
+background-position: center;   
+}
+    
+.lamas:hover {
+background: url('../img/lamas/ab39.png'), #fff;
+background-repeat: no-repeat;
+background-size:150%;
+background-position: center; 
+}
+
+.guias { 
+background: url('../img/guias/GUIA-RECAMBIO.png'), #B1BBBE;
+background-repeat: no-repeat;
+background-size:200%;
+background-position: top -64px left 50%;   
+}
+
+.guias:hover {
+background: url('../img/guias/GUIA-RECAMBIO.png'), #fff;
+background-repeat: no-repeat;
+background-size:200%;
+background-position: top -64px left 50%;  
+}
+
+.accesorios { 
+background: url('../img/accesorios-compacto/ENR-EMBUTIR.png'), #B1BBBE;
+background-repeat: no-repeat;
+background-size:100%;
+background-position: center;   
+}
+
+.accesorios:hover {
+background: url('../img/accesorios-compacto/ENR-EMBUTIR.png'), #fff;
+background-repeat: no-repeat;
+background-size:100%;
+background-position: center;
+}
+
+#mini {
+    background: url('../img/sistemas/SECCION_MINI.png'), #EFEEEE;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+    background-position: left;
+}
+
+#compacto {
+    background: url('../img/sistemas/SECCION_COMPACTO.png'), #EFEEEE;
+    background-repeat: no-repeat;
+    background-size:auto 100%;
+    background-position: left;
+}
+
+#renove {
+    background: url('../img/sistemas/SECCION_RECAMBIO.png'), #EFEEEE;
+    background-repeat: no-repeat;
+    background-size:auto 100%;
+    background-position: left;
+}
+
+#descubre-cajones {
+    background: url('../img/sistemas_persiana.jpg'), #EFEEEE;
+    background-repeat: no-repeat;
+    background-size:cover;
+}
+    
+    
+

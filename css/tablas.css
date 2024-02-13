@@ -1,0 +1,60 @@
+.value_table {
+    padding:.5rem;
+    box-sizing: border-box;
+    display: flex;
+    flex-direction: column;
+}
+.table-title {
+    /*background-color: #f2f2f2;*/
+    display: block;
+    padding:.5rem;
+}
+
+table {
+    border-collapse: collapse;
+    margin-top: 1rem;
+    margin-bottom:1rem;
+    width: 100%;
+}
+
+.datos-tecnicos {
+    width: fit-content;
+}
+
+.datos-tecnicos td {
+    text-align: left;
+}
+
+th {
+    font-size: 9px;
+    padding:0.25rem;
+    /*background-color: #f2f2f2;*/
+    text-align: center;
+}
+
+td {
+    padding:0.25rem 0.5rem;
+    font-size: 10px;
+    text-align: center;
+}
+.cajon-table {
+    width: 80%;
+    margin-left: auto;
+}
+
+.cajon-table  tr {
+    border-bottom: 1px solid #efeeee;
+}
+
+.cajon-table tr:last-of-type {
+    border-bottom: none;
+}
+
+.cajon-table tr > td:first-of-type {
+    text-align: left;
+    font-weight: 600;
+}
+
+.table-centralita {
+    width: unset;
+}

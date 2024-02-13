@@ -1,0 +1,86 @@
+/*cajon*/
+
+.eficiency { 
+    background: url('../img/cajones/luxebox.png'), #B1BEB8;
+    background-repeat: no-repeat;
+    background-size:150%;
+    background-position: center;  
+}
+
+.eficiency:hover {
+    background: url('../img/cajones/luxebox.png'), #fff;
+    background-repeat: no-repeat;
+       background-size:150%;
+    background-position: center;
+}
+
+.security { 
+    background: url('../img/cajones/pvc_3_extruida.png'), #B1BEB8;
+    background-repeat: no-repeat;
+        background-size:150%;
+    background-position: center;   
+}
+
+.security:hover {
+    background: url('../img/cajones/pvc_3_extruida.png'), #fff;
+    background-repeat: no-repeat;
+        background-size:150%;
+    background-position: center;
+}
+
+.perfilados { 
+    background: url('../img/cajones/4partes.png'), #B1BEB8;
+    background-repeat: no-repeat;
+        background-size:150%;
+    background-position: center;    
+}
+
+.perfilados:hover {
+    background: url('../img/cajones/4partes.png'), #fff;
+    background-repeat: no-repeat;
+    background-size:150%;
+    background-position: center;
+}
+
+.pvc { 
+    background: url('../img/cajones/pvc_doble_tabique.png'), #B1BEB8;
+    background-repeat: no-repeat;
+    background-size:150%;
+    background-position: center;   
+}
+
+.pvc:hover {
+    background: url('../img/cajones/pvc_doble_tabique.png'), #fff;
+    background-repeat: no-repeat;
+    background-size:150%;
+    background-position: center;
+}
+
+.design { 
+    background: url('../img/cajones/pvc_1_extruida.png'), #B1BEB8;
+    background-repeat: no-repeat;
+    background-size:150%;
+    background-position: center;   
+}
+
+.design:hover {
+    background: url('../img/cajones/pvc_1_extruida.png'), #fff;
+    background-repeat: no-repeat;
+    background-size:150%;
+    background-position: center;
+}
+
+.elegance { 
+    background: url('../img/cajones/pvc_2_extruida.png'), #B1BEB8;
+    background-repeat: no-repeat;
+    background-size:150%;
+    background-position: center;    
+}
+
+.elegance:hover {
+    background: url('../img/cajones/pvc_2_extruida.png'), #fff;
+    background-repeat: no-repeat;
+    background-size:150%;
+    background-position: center;
+}
+

@@ -1,0 +1,56 @@
+.button-persiana_guia::after {
+   display: none;
+    );
+}
+
+.button-persiana_guia {
+    background-color: #C4ADA5;
+    background-size:cover;
+}
+
+.button-persiana_guia:hover {
+    background-color: #fff;
+}
+
+
+.recambio { 
+background-image: url('../img/guias/GUIA-RECAMBIO.png');
+background-repeat: no-repeat;
+background-size:cover;
+background-position: center;   
+}
+
+.esp130 { 
+background-image: url('../img/guias/GUIA-E130.png');
+background-repeat: no-repeat;
+background-size:cover;
+background-position: center;  
+}
+
+.rpt150 { 
+background-image: url('../img/guias/GUIA-150-RPT.png');
+background-repeat: no-repeat;
+background-size:cover;
+background-position: center; 
+}
+
+.pl120 { 
+background-image: url('../img/guias/GUIA-PL120.png');
+background-repeat: no-repeat;
+background-size:cover;
+background-position: center; 
+}
+
+.central { 
+background-image: url('../img/guias/GUIA-CENTRAL.png');
+background-repeat: no-repeat;
+background-size:cover;
+background-position: center; 
+}
+
+.h25 { 
+background-image: url('../img/guias/GUIA-h25.png');
+background-repeat: no-repeat;
+background-size:cover;
+background-position: center; 
+}

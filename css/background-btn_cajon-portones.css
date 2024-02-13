@@ -1,0 +1,10 @@
+.cajon-300 { 
+background: url('../img/cajones/PORTON300.png');
+background-repeat: no-repeat;
+background-size: cover;
+background-position: right;   
+}
+
+.cajon-300:hover {
+background-color: #fff;
+}

@@ -1,0 +1,93 @@
+.button-persiana_accesorios::after {
+    display: none;
+}
+
+.button-persiana_accesorios {
+    background-color: #DDE5EB;
+    background-size:cover;
+}
+
+.button-persiana_accesorios:hover {
+    background-color: #fff;
+}
+
+.compacto { 
+background: url('../img/accesorios-compacto/CONTERA40.png'), #B1BBBE;
+background-repeat: no-repeat;
+background-size:150%;
+background-position: center;   
+}
+
+.mini { 
+background: url('../img/accesorios-compacto/TORNILLOS_PINTADOS.png'), #B1BBBE;
+background-repeat: no-repeat;
+background-size:100%;
+background-position: center;   
+}
+
+.alto-pesaje { 
+background: url('../img/accesorios-porton/PLACA-RODAMIENTO-ACEITADO.png'), #B1BBBE;
+background-repeat: no-repeat;
+background-size:150%;
+background-position: center;   
+}
+
+.renove { 
+background: url('../img/accesorios-compacto/PASACINTAS.png'), #B1BBBE;
+background-repeat: no-repeat;
+background-size:150%;
+background-position: center;   
+}
+
+.enr-cinta {
+    background-image: url('../img/accesorios-compacto/ENR-EMBUTIR.png');
+}
+.pasacinta {
+    background-image: url('../img/accesorios-compacto/PASACINTAS.png');
+}
+.embudo-milano {
+    background-image: url('../img/accesorios-compacto/EMBUDO-MILANO.png');
+}
+.discos {
+     background-image: url('../img/accesorios-compacto/DISCO-120.png');
+}
+.conteras {
+     background-image: url('../img/accesorios-compacto/CONTERA40.png');
+}
+.cerrojos {
+     background-image: url('../img/accesorios-compacto/CERROJO.png');
+}
+.tornillos {
+     background-image: url('../img/accesorios-compacto/TORNILLOS_PINTADOS.png');
+}
+.placa-milano {
+     background-image: url('../img/accesorios-compacto/PLACA-MILANO.png');
+}
+.enr-manivela {
+    /*  background-image: url('../img/accesorios-compacto/EMBUDO-MILANO.png'); */
+}
+.enr-cordon {
+     /* background-image: url('../img/accesorios-compacto/EMBUDO-MILANO.png'); */
+}
+.pasacinta-cordon {
+    /*  background-image: url('../img/accesorios-compacto/EMBUDO-MILANO.png'); */
+}
+.placa-rod-metalico {
+     background-image: url('../img/accesorios-porton/PLACA-RODAMIENTO-ACEITADO.png');
+}
+.contera-teles {
+     background-image: url('../img/accesorios-porton/CONTERA-TELESCOPICA.png');
+}
+.central {
+     /* background-image: url('../img/accesorios-compacto/EMBUDO-MILANO.png'); */
+}
+.h25-mini {
+     /* background-image: url('../img/accesorios-compacto/EMBUDO-MILANO.png'); */
+}
+.acc-renove {
+     /* background-image: url('../img/accesorios-compacto/EMBUDO-MILANO.png'); */
+}
+
+    
+    
+

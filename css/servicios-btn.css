@@ -1,0 +1,31 @@
+#logistica-servicios {
+    background-image: url('../img/SERVICIOS/LuxeEsp_Logistica.jpg');   
+    background-color:#fff;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;  
+}
+
+#postventa-servicios {
+    background-image: url('../img/SERVICIOS/postventa-btn.png');    
+    background-color:#fff;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;  
+}
+
+#sucursales-servicios {
+    background-image: url('../img/SERVICIOS/AdobeStock_304527162.jpg');
+    background-color:#fff;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;  
+}
+
+#arquitectos-servicios {
+    background-image: url('../img/SERVICIOS/AdobeStock_616765498.jpg'); 
+    background-color:#fff;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;  
+}

@@ -1,0 +1,26 @@
+.persianas { 
+background: url('../img/motores/motor-persiana.jpg'), #B1BBBE;
+background-repeat: no-repeat;
+background-size:cover;
+background-position: center;   
+}
+
+.portones { 
+background: url('../img/motores/motor-porton.jpg'), #B1BBBE;
+background-repeat: no-repeat;
+background-size:cover;
+background-position: center;   
+}
+
+.instructivos { 
+background: url('../img/motores/instructivos.png'), #B1BBBE;
+background-repeat: no-repeat;
+background-size:cover;
+background-position: center;   
+}
+
+
+
+
+    
+

@@ -1,0 +1,73 @@
+.eficiency, .lp43 { 
+background: url('../img/lamas/LAMA-LP43C.png'), #C4BCA5;
+background-repeat: no-repeat;
+background-size:100%;
+background-position: center;   
+}
+
+.eficiency:hover, .lp43:hover {
+background: url('../img/lamas/LAMA-LP43C.png'), #fff;
+background-repeat: no-repeat;
+background-size:100%;
+background-position: center;
+}
+
+.security, .ab-39 { 
+background: url('../img/lamas/ab39.png'), #C4BCA5;
+background-repeat: no-repeat;
+background-size:100%;
+background-position: center;   
+}
+    
+.security:hover, .ab-39:hover {
+background: url('../img/lamas/ab39.png'), #fff;
+background-repeat: no-repeat;
+background-size:100%;
+background-position: center; 
+}
+
+.pvc { 
+background: url('../img/lamas/LAMA-PVC45.png'), #C4BCA5;
+background-repeat: no-repeat;
+background-size:81%;
+background-position: center;   
+}
+
+.pvc:hover {
+background: url('../img/lamas/LAMA-PVC45.png'), #fff;
+background-repeat: no-repeat;
+background-size:81%;
+background-position: center; 
+}
+
+.renove { 
+background: url('../img/lamas/LAMA-LP55C1.png'), #C4BCA5;
+background-repeat: no-repeat;
+background-size:200%;
+background-position: center;   
+}
+
+.renove:hover {
+background: url('../img/lamas/LAMA-LP55C1.png'), #fff;
+background-repeat: no-repeat;
+background-size: 200%;
+background-position: center;
+}
+
+.lp-42 { 
+background: url('../img/lamas/LAMA_LP42.png'), #C4BCA5;
+background-repeat: no-repeat;
+background-size: 99%;
+background-position: center;   
+}
+
+.lp-42:hover {
+background: url('../img/lamas/LAMA_LP42.png'), #fff;
+background-repeat: no-repeat;
+background-size:99%;
+background-position: center;
+}
+    
+.eficiency::after, .security::after, .renove::after, .pvc::after, .lp-42::after {
+    display: none;
+}
