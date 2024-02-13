@@ -1077,6 +1077,12 @@ font-size: 12px;
     display: flex;
     align-items: center;
     border: unset;
+    width: 100%;
+    gap: 2rem;
+}
+
+.dt_guia > img {
+    width: 70%;
 }
 
 .dt-mosquiteros {
