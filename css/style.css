@@ -1085,6 +1085,10 @@ font-size: 12px;
     width: 70%;
 }
 
+.dt-guia-porton > img {
+    width: unset;
+}
+
 .dt-mosquiteros {
     justify-content: flex-end;
     gap: 40px;
