@@ -2001,10 +2001,10 @@ a.navpad-button_persiana-cajones::after {
 }
 
 #portones {
-    background: url('../img/portones/LuxeEsp_PortonesBackground.png'), linear-gradient(to right, #fff, #e5e1d0);
+    background: url('../img/carousel/Porton_garage_bmw.jpg');
     background-repeat: no-repeat;
-    background-size:auto 100%;
-    background-position: left;   
+    background-size:cover;
+    background-position: center;   
 }
 
 #cajones-portada {
