@@ -1,0 +1,11 @@
+.motor40-tecla {
+    background-image: url('../img/motores/motor.jpg');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.motor60-tecla {
+    background-image: url('../img/motores/Render_Motor60Generic.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
