@@ -1,11 +1,39 @@
 .button-lama-porton { 
 background: url('../img/lamas/LAMAS-PORTON.png');
 background-repeat: no-repeat;
-background-size: 150%;
-background-position: center;   
+background-size: 100%;
+background-position: center;
+background-color: #ffc785;   
 }
 
-.button-lama-porton:hover {
+.button-lama-porton-lp78 { 
+background: url('../img/lamas/lp78c.png');
+background-repeat: no-repeat;
+background-size: contain;
+background-position: center;
+background-color: #ffc785;   
+}
+
+.button-lama-porton-lp100ec { 
+background: url('../img/lamas/lp100ec.png');
+background-repeat: no-repeat;
+background-size: contain;
+background-position: center;
+background-color: #ffc785;   
+}
+
+.button-lama-porton-lp100ect { 
+background: url('../img/lamas/lp100ect.png');
+background-repeat: no-repeat;
+background-size: contain;
+background-position: center;
+background-color: #ffc785;   
+}
+
+.button-lama-porton:hover, .button-lama-porton-lp78:hover, .button-lama-porton-lp100ec:hover, .button-lama-porton-lp100ect:hover {
     background-color: #fff;
 }
 
+.button-lama-porton::after, .button-lama-porton-lp78::after, .button-lama-porton-lp100ec::after, .button-lama-porton-lp100ect::after {
+    display: none;
+}
