@@ -2298,6 +2298,10 @@ strong {
     height: auto;
 }
 
+.img-gde-cajon {
+    width: 80%;
+}
+
 .grid_tables h1>.secondary-subtitle {
     font-size: 22px;
     display: block;
