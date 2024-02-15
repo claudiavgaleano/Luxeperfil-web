@@ -932,7 +932,7 @@ flex-direction: row;
 }
 .grid_tables h1 > span {
     font-family: Raleway, sans-serif;
-    font-size: 30px;
+    font-size: 34px;
 }
 .table_header {
     display: flex;
@@ -2255,4 +2255,30 @@ strong {
     font-weight: 300;
     text-align: center;
     line-height: 1.5rem;
+}
+
+.grid_tables h1>.secondary-subtitle {
+    font-size: 22px;
+    display: block;
+}
+
+.dt-guia-porton {
+    height: 18rem;
+    width: auto
+}
+
+.table_img_grid .img-guia {
+    width: 80%;
+    height: auto;
+}
+#img-lp78 {
+    background-image: url('../img/lamas/lp78c.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+#img-lp100ec {
+    background-image: url('../img/lamas/lp100ec.png');
+    background-size: contain;
+    background-repeat: no-repeat;
 }
