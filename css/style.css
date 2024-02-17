@@ -5,6 +5,11 @@
     margin: 0;
     border: 0;
     font-family: Roboto, sans-serif;
+   
+}
+
+h1 {
+    box-sizing: border-box;
 }
 
 /* html {
