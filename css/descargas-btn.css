@@ -6,7 +6,7 @@
     background-size:contain;  
 }
 
-#instructivos {
+#instructivos, #garantia {
     background-image: url('../img/DESCARGAS/AdobeStock_83889330.jpg');    
     background-color:#fff;
     background-repeat: no-repeat;
