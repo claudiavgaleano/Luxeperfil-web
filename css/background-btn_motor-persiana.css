@@ -1,7 +1,7 @@
 .remoto { 
-background: url('../img/motores/remoto.jpg'), #B1BBBE;
+background: url('../img/motores/remoto.jpg'), #FFF;
 background-repeat: no-repeat;
-background-size:cover;
+background-size:contain;
 background-position: center;   
 }
 

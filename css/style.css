@@ -2033,6 +2033,7 @@ a.navpad-button_persiana-cajones::after {
     font-weight: 500;
     font-family: Raleway, sans-serif;
     text-align: center;
+    max-width: 28ch;
 }
 
 .img-recomendados {
