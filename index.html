@@ -43,7 +43,7 @@
                     </ul>
                 </nav>
                 <div class="carousel">
-                    <div class="slides">
+                    <div class="slides siema">
                         <div class="carousel-item"id="slide-1">
 
                             <div class="carousel-content">
@@ -131,6 +131,12 @@
                             </div>
                         </div>
                       </div>
+                      <button class="prev"><span class="material-symbols-outlined">
+                        chevron_left
+                        </span></button>
+                      <button class="next"><span class="material-symbols-outlined">
+                        chevron_right
+                        </span></button>
                 </div>
             </div>
         </div>
@@ -219,26 +225,18 @@
             <p>Copyright © 2023 All Rights Reserved</p>
         </footer>
         <script src="https://kit.fontawesome.com/ba786aa3e4.js" crossorigin="anonymous"></script>
+        <script src="./js/siema/siema.min.js"></script>
         <script>
-            const carouselItems = document.querySelectorAll(".carousel-item");
-            const prevBtn = document.querySelector(".prev");
-            const nextBtn = document.querySelector(".next");
-
-            let i = 1;
-
-            setInterval(() => {
-            Array.from(carouselItems).forEach((item, index) => {
-                if (i < carouselItems.length) {
-                item.style.transform = `translateX(-${i * 100}%)`;
-                }
+            const mySiema = new Siema({
+                perPage:1,
+                loop: true,
+                duration: 250,
+                easing: 'ease',
             });
+            document.querySelector('.prev').addEventListener('click', () => mySiema.prev());
+            document.querySelector('.next').addEventListener('click', () => mySiema.next());
 
-            if (i < carouselItems.length) {
-                i++;
-            } else {
-                i = 0;
-            }
-            }, 6000);
+            setInterval(() => mySiema.next(), 10000)
         </script>
     </body>
 </html>
