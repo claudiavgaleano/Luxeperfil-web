@@ -282,8 +282,12 @@ display: none;
 /*     top:60%;
     right: 5%; */
     gap: 8px;
+    position:absolute;
+    bottom:30%;
+    right: 3rem;
+    z-index: 3;
   }
-  .carousel div > a.slider-item {
+  .carousel div > .slider-item {
     display: inline-flex;
     width: 2.5rem;
     height: 1rem;
@@ -292,10 +296,11 @@ display: none;
     align-items: center;
     justify-content: center;
     margin: 0 0 0.5rem 0;
-    color: transparent
+    color: transparent;
+    cursor: pointer;
   }
 
-  .carousel div > a.slider-item.active {
+  .carousel div > .slider-item.active {
     background-color: #2A2A2A;
   }
 

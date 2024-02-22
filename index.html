@@ -53,13 +53,6 @@
                                     </p>
                                     <a href="./persianas.html"><span class=""><i class="fa-solid fa-circle-plus"></i></span></a>
                                 </div>
-                                <div class="carousel_control">
-                                    <a href="#slide-1" class="slider-item active">1</a>
-                                    <a href="#slide-2" class="slider-item">2</a>
-                                    <a href="#slide-3" class="slider-item">3</a>
-                                    <a href="#slide-4" class="slider-item">4</a>
-                                    <a href="#slide-5" class="slider-item">5</a>
-                                </div>
                             </div>
                         </div>
                         <div class="carousel-item"id="slide-2">
@@ -69,13 +62,6 @@
                                         Protege tu <span class="strong-text">hogar, garage o comercio</span> ahorrando energía
                                     </p>
                                     <a href="./portones.html"><span class=""><i class="fa-solid fa-circle-plus"></i></span></a>
-                                </div>
-                                <div class="carousel_control">
-                                    <a href="#slide-1" class="slider-item">1</a>
-                                    <a href="#slide-2" class="slider-item active">2</a>
-                                    <a href="#slide-3" class="slider-item">3</a>
-                                    <a href="#slide-4" class="slider-item">4</a>
-                                    <a href="#slide-5" class="slider-item">5</a>
                                 </div>
                             </div>
                         </div>
@@ -87,13 +73,6 @@
                                     </p>
                                     <a href="./mosquiteros.html"><span class=""><i class="fa-solid fa-circle-plus"></i></span></a>
                                 </div>
-                                <div class="carousel_control">
-                                    <a href="#slide-1" class="slider-item">1</a>
-                                    <a href="#slide-2" class="slider-item">2</a>
-                                    <a href="#slide-3" class="slider-item active">3</a>
-                                    <a href="#slide-4" class="slider-item">4</a>
-                                    <a href="#slide-5" class="slider-item">5</a>
-                                </div>
                             </div>
                         </div>
                         <div class="carousel-item"id="slide-4">
@@ -103,13 +82,6 @@
                                         Descubre nuestra <span class="strong-text">amplia gama de productos.</span>                                        
                                     </p>
                                     <a href="./productos.html"><span class=""><i class="fa-solid fa-circle-plus"></i></span></a>
-                                </div>
-                                <div class="carousel_control">
-                                    <a href="#slide-1" class="slider-item">1</a>
-                                    <a href="#slide-2" class="slider-item">2</a>
-                                    <a href="#slide-3" class="slider-item">3</a>
-                                    <a href="#slide-4" class="slider-item active">4</a>
-                                    <a href="#slide-5" class="slider-item">5</a>
                                 </div>
                             </div>
                         </div>
@@ -121,16 +93,16 @@
                                     </p>
                                     <a href="./tablas/sistema-mini.html"><span class=""><i class="fa-solid fa-circle-plus"></i></span></a>
                                 </div>
-                                <div class="carousel_control">
-                                    <a href="#slide-1" class="slider-item">1</a>
-                                    <a href="#slide-2" class="slider-item">2</a>
-                                    <a href="#slide-3" class="slider-item">3</a>
-                                    <a href="#slide-4" class="slider-item">4</a>
-                                    <a href="#slide-5" class="slider-item active">5</a>
-                                </div>
                             </div>
                         </div>
                       </div>
+                      <div class="carousel_control">
+                        <button type="button" class="slider-item active btn-1">1</button>
+                        <button type="button" class="slider-item btn-2">2</button>
+                        <button type="button" class="slider-item btn-3">3</button>
+                        <button type="button" class="slider-item btn-4">4</button>
+                        <button type="button" class="slider-item btn-5">5</button>
+                    </div>
                       <button class="prev"><span class="material-symbols-outlined">
                         chevron_left
                         </span></button>
@@ -235,6 +207,52 @@
             });
             document.querySelector('.prev').addEventListener('click', () => mySiema.prev());
             document.querySelector('.next').addEventListener('click', () => mySiema.next());
+            const btn1 = document.querySelector('.btn-1');
+            const btn2 = document.querySelector('.btn-2');
+            const btn3 = document.querySelector('.btn-3');
+            const btn4 = document.querySelector('.btn-4');
+            const btn5 = document.querySelector('.btn-5');
+
+            btn1.addEventListener('click', () => {
+                mySiema.goTo(0);
+                btn1.classList.add("active");
+                btn2.classList.remove("active");
+                btn3.classList.remove("active");
+                btn4.classList.remove("active");
+                btn5.classList.remove("active");
+            });
+            btn2.addEventListener('click', () => {
+                mySiema.goTo(1);
+                btn1.classList.remove("active");
+                btn2.classList.add("active");
+                btn3.classList.remove("active");
+                btn4.classList.remove("active");
+                btn5.classList.remove("active");
+            });
+            btn3.addEventListener('click', () => {
+                mySiema.goTo(2);
+                btn1.classList.remove("active");
+                btn2.classList.remove("active");
+                btn3.classList.add("active");
+                btn4.classList.remove("active");
+                btn5.classList.remove("active");
+            });
+            btn4.addEventListener('click', () => {
+                mySiema.goTo(3);
+                btn1.classList.remove("active");
+                btn2.classList.remove("active");
+                btn3.classList.remove("active");
+                btn4.classList.add("active");
+                btn5.classList.remove("active");
+            });
+            btn5.addEventListener('click', () => {
+                mySiema.goTo(4);
+                btn1.classList.remove("active");
+                btn2.classList.remove("active");
+                btn3.classList.remove("active");
+                btn4.classList.remove("active");
+                btn5.classList.add("active");
+            });
 
             setInterval(() => mySiema.next(), 10000)
         </script>
