@@ -166,18 +166,19 @@ display: none;
     color: #2a2a2a;
     background-color: rgba(255,255,255, 0.3);
     backdrop-filter: blur(5px);
-    padding:0.5rem;
+    padding:0.25rem;
     border-radius: 50%;
     position: absolute;
     bottom:45%;
     line-height: 0;
+    cursor:pointer;
   }
 
   button.prev {
-    left: 1rem;
+    left: 0.5rem;
   }
   button.next {
-    right: 1rem;
+    right: 0.5rem;
   }
 
   button.prev > span, button.next > span {
@@ -211,7 +212,7 @@ display: none;
     justify-content: center; 
     align-items: flex-end; 
     margin-left: auto;
-    margin-right: 40px;
+    margin-right: 60px;
     gap: 40px;
   }
 
@@ -284,7 +285,7 @@ display: none;
     gap: 8px;
     position:absolute;
     bottom:30%;
-    right: 3rem;
+    right: 4rem;
     z-index: 3;
   }
   .carousel div > .slider-item {
