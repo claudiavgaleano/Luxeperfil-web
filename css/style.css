@@ -151,7 +151,7 @@ nav > a:not(.logo):hover, .social > a:hover {
 }
 
 .slides {
-    height: 700px;
+    min-height: 700px;
 /*     display: flex;    
     overflow-x: hidden;
     flex-wrap: nowrap; */
