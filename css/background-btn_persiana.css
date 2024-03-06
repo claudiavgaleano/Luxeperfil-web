@@ -1,82 +1,91 @@
 .cajones { 
-background: url('../img/cajones/pvc_1_extruida.png'), #B1BBBE;
+background-image: url('../img/PERSIANAS/Cajones-Alumino-Persiana.jpg'); /*#B1BBBE*/
 background-repeat: no-repeat;
-background-size:150%;
+background-size:cover;
 background-position: center;   
 }
+.cajones::after, .lamas::after, .guias::after, .accesorios::after {
+    background-color:rgba(177, 187, 190, 0.5);
+    background-blend-mode: multiply;
+}
 
-.cajones:hover {
-background: url('../img/cajones/pvc_1_extruida.png'), #fff;
+/* .cajones:hover {
+background: url('../img/cajones/pvc_1_extruida.png');
 background-repeat: no-repeat;
 background-size:150%;
 background-position: center;
+} */
+
+.cajones::after:hover, .lamas::after:hover, .guias::after:hover, .accesorios::after:hover {
+    display: none;
 }
 
+
 .lamas { 
-background: url('../img/lamas/ab39.png'), #B1BBBE;
+background-image: url('../img/PERSIANAS/Lamas-Aluminio-PVC.jpg');
 background-repeat: no-repeat;
-background-size:150%;
+background-size:cover;
 background-position: center;   
 }
     
-.lamas:hover {
+/* .lamas:hover {
 background: url('../img/lamas/ab39.png'), #fff;
 background-repeat: no-repeat;
 background-size:150%;
 background-position: center; 
-}
+} */
 
 .guias { 
-background: url('../img/guias/GUIA-RECAMBIO.png'), #B1BBBE;
+background-image: url('../img/PERSIANAS/Guias-Aluminio-Extrusion.jpg');
 background-repeat: no-repeat;
-background-size:200%;
-background-position: top -64px left 50%;   
+background-size:cover;
+background-position: center;   
 }
 
-.guias:hover {
+/* .guias:hover {
 background: url('../img/guias/GUIA-RECAMBIO.png'), #fff;
 background-repeat: no-repeat;
 background-size:200%;
 background-position: top -64px left 50%;  
-}
+} */
 
 .accesorios { 
-background: url('../img/accesorios-compacto/ENR-EMBUTIR.png'), #B1BBBE;
+background-image: url('../img/PERSIANAS/Accesorios-Persiana-Calidad.jpg');
 background-repeat: no-repeat;
-background-size:100%;
+background-size:cover;
 background-position: center;   
 }
 
-.accesorios:hover {
+/* .accesorios:hover {
 background: url('../img/accesorios-compacto/ENR-EMBUTIR.png'), #fff;
 background-repeat: no-repeat;
 background-size:100%;
 background-position: center;
-}
+} */
 
 #mini {
-    background: url('../img/sistemas/SECCION_MINI.png'), #EFEEEE;
+    background: url('../img/PERSIANAS/Persiana-MiniExterior-Seccion.jpg'), #EFEEEE;
     background-repeat: no-repeat;
     background-size: auto 100%;
     background-position: left;
 }
 
 #compacto {
-    background: url('../img/sistemas/SECCION_COMPACTO.png'), #EFEEEE;
+    background: url('../img/PERSIANAS/Persiana-Compacto-Seccion.jpg'), #EFEEEE;
     background-repeat: no-repeat;
     background-size:auto 100%;
     background-position: left;
 }
 
 #renove {
-    background: url('../img/sistemas/SECCION_RECAMBIO.png'), #EFEEEE;
+    background: url('../img/PERSIANAS/Persiana-Sustitucion-Seccion.jpg'), #EFEEEE;
     background-repeat: no-repeat;
     background-size:auto 100%;
     background-position: left;
 }
 
 #descubre-cajones {
-    background: url('../img/sistemas_persiana.jpg'), #EFEEEE;
+    background: url('../img/PERSIANAS/a'), #EFEEEE;
     background-repeat: no-repeat;
     background-size:cover;
 }
