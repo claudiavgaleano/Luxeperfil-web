@@ -72,7 +72,7 @@ nav {
     width: auto;
 }
 
-nav > a:not(.logo), .social >a {
+nav > a:not(.logo, .hamburguer-menu), .social >a {
     color: #000;
     display: block;
     padding: 8px;
@@ -675,7 +675,7 @@ a.navpad-button_mosquiteros::after, a.navpad-button.button-xxl_mosquiteros::afte
     background-position: bottom center;
 }
 #eficiencia-compromiso {
-    background-image: url('../img/EFICIENCIA/Alucofer_Recycled.jpg')
+    background-image: url('../img/EFICIENCIA/Aluminio-Reciclable-Persiana.jpg')
 }
 
 .section-grid > div > div{
@@ -2103,10 +2103,10 @@ a.navpad-button_persiana-cajones::after {
 /*Portadas*/
 
 #eficiencia-energetica {
-    background-image: url('../img/EFICIENCIA/AdobeStock_300150072.jpg');
+    background-image: url('../img/EFICIENCIA/Persianas-Eficiencia-Sostenibilidad.jpg');
     background-repeat: no-repeat;
-    background-size:100%;
-    background-position: center;
+    background-size:cover;
+    background-position: left center;
 }
 
 #persianas {
