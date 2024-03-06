@@ -17,7 +17,7 @@
                     <a href="index.html" class="logo">
                         <img src="./img/logo.png" alt="">
                     </a>
-                    <a href="index.html">
+                    <a href="index.html" class="home-button">
                         <span class="material-symbols-outlined">
                             home
                         </span>
@@ -27,7 +27,7 @@
                         <!--  <li class="navbar-item"><a href="./empresa.html">empresa</a></li> -->
                         
                         <li class="navbar-item">
-                            <a href="./productos.html">productos</a>
+                            <a href="./productos.html" class="hidden-subnav">productos</a>
                             <ul>
                                 <li><a href="./persianas.html">persianas</a></li>
                                 <li><a href="./portones.html">portones</a></li>
@@ -41,6 +41,11 @@
                         <li class="navbar-item"><a href="./eficiencia.html">eficiencia energetica</a></li>
                         <li class="navbar-item"><a href="./contacto.html">contacto</a></li>
                     </ul>
+                    <a class="hamburguer-menu">
+                        <span class="material-symbols-outlined">
+                            menu
+                        </span>
+                    </a>
                 </nav>
                 <div class="carousel">
                     <div class="slides siema">
@@ -198,6 +203,7 @@
         </footer>
         <script src="https://kit.fontawesome.com/ba786aa3e4.js" crossorigin="anonymous"></script>
         <script src="./js/siema/siema.min.js"></script>
+        <script src="./js/hamburguer-menue.js"></script>
         <script>
             const mySiema = new Siema({
                 perPage:1,
@@ -254,7 +260,7 @@
                 btn5.classList.add("active");
             });
 
-            setInterval(() => mySiema.next(), 10000)
+            setInterval(() => mySiema.next(), 10000);
         </script>
     </body>
 </html>

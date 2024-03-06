@@ -61,6 +61,9 @@ nav {
     gap: 32px;
 
 }
+.hamburguer-menu {
+    display: none;
+}
 .logo {
     margin-right: auto;
 }
@@ -914,7 +917,7 @@ backdrop-filter: blur(5px);
     border-bottom:8rem solid #E7ADAD;
     background-repeat: no-repeat;
     background-size: contain;
-    background-position: right;
+    background-position: right bottom;
 }
 
 .intro-motores {
@@ -1267,7 +1270,11 @@ ol.two-columns > li:after {
 a.navpad-button.button-xxl, a.navpad-button.button-xxl::after {
     width: 15rem;
     height: 15rem;
-    border-radius: 3rem;
+    border-radius: 3rem;    
+}
+
+a.navpad-button.button-xxl {
+    margin: 1rem;
 }
 a.navpad-button.button-xxl > i {
    font-size: 45px; 
@@ -1281,6 +1288,8 @@ a.navpad-button.button-xxl >.navpad-button__title {
 
 .menu_productos {
     display: flex;
+    flex-wrap:wrap;
+    row-gap: 1rem;
     gap: 10%;
     padding: 30px 6%;
     background-color: #EFEEEE;
@@ -1547,7 +1556,7 @@ div.description-product_column > p {
 
 .portada_sistema_persianas {
 width: 23%;
-min-width: 250px;
+min-width: 290px;
 background-color: #EFEEEE;
 border-radius: 2rem;
 display: flex;
@@ -2432,4 +2441,104 @@ strong {
     background-image: url('../img/lamas/lp100ect.png');
     background-size: contain;
     background-repeat: no-repeat;
+}
+
+@media (max-width: 1410px) { 
+    .grid-logistica {
+        flex-direction: column;
+        align-items: center;
+    }
+    #logistica-img, #sucursales-img, #postventa-img, #arquitectos-img {
+        width: 100%;
+        background-size: cover;
+    }
+    .portada-sistema-persianas_content {
+        display: flex;
+    }
+
+    .portones-text {
+        flex-grow:1;
+    }
+    .imagen-porton {
+        display: none;
+    }
+
+    .grid_con-bottom > div {
+        width: unset;
+    }
+    .grid-logistica_persianas1 {
+        padding-left: unset !important;
+    }
+    .grid-logistica_persianas1 > .img {
+        max-width: unset;
+        margin-right: unset;
+        width: 100%;
+        margin-left: unset;
+    }
+}
+
+@media (max-width:800px) {
+    .grid_tables {
+        flex-direction: column-reverse;
+        align-items: center;
+    }
+    .grid_tables > div:last-of-type,.grid_tables > div:first-of-type {
+        width: 100%;
+    }
+
+    .navbar {
+        flex-direction: column;
+        background-color: #fff;
+        position: absolute;
+        right:0;
+        top: 40px;
+        z-index: 10;
+        padding:2rem 0;
+        font-size:20px;
+        height:100%;
+        box-sizing: border-box;
+        display: none;
+        
+    }
+    nav {
+     height: 40px;
+    }
+    .navbar-item {
+        display: block;
+        width: 100%;
+    }
+
+    .navbar-item > a {
+        padding: 0 2rem;
+        width: 100;
+    }
+    .home-button {
+        margin-left: auto;
+    }
+    .hamburguer-menu {
+        display: block;
+    }
+
+/*     .navbar .navbar-item > ul {
+       
+        flex-direction: column;
+        z-index:inherit;
+        height: fit-content;        
+        gap:1rem;
+        background-color:#efeeee;
+    }
+
+    .navbar .navbar-item > .hidden-subnav + ul {
+        visibility:unset;
+        display: block flex;
+        opacity:1;
+        position:static;
+    } */
+    .navbar .navbar-item:hover > ul, .navbar .navbar-item ul:hover {
+        display: none;
+    }
+
+    .visible {
+        display: block flex;
+    }
 }
