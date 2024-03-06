@@ -1,30 +1,30 @@
 /*cajon*/
 
 .persiana { 
-    background: url('../img/PRODUCTOS/AdobeStock_68200159.jpg');
+    background: url('../img/PRODUCTOS/Productos-Persianas-Aluminio.jpg');
     background-repeat: no-repeat;
     background-size:cover;
-    background-position: right;  
+    background-position: center;  
 }
 
 
 .motor { 
-    background: url('../img/index/AdobeStock_253360173.jpg'), #fff;
+    background: url('../img/PRODUCTOS/Motores-Persiana-Porton.jpg'), #fff;
     background-repeat: no-repeat;
-    background-size:200%;
-    background-position: top 36% left 47%;   
+    background-size:cover;
+    background-position: center;   
 }
 
 .mosquitero { 
-    background: url('../img/portadas/mosquitero.png'), #fff;
+    background: url('../img/PRODUCTOS/Mosquiteros-Aluminio-Enrollable.jpg'), #fff;
     background-repeat: no-repeat;
-        background-size:cover;
+    background-size:cover;
     background-position: center;    
 }
 
 .porton { 
-    background: url('../img/index/Portones01.jpg'), #fff;
+    background: url('../img/PRODUCTOS/Productos-Porton-Garage.jpg'), #fff;
     background-repeat: no-repeat;
-    background-size:150%;
-    background-position:top 9% left 23%;   
+    background-size:cover;
+    background-position:center;   
 }
