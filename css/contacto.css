@@ -1,0 +1,53 @@
+main {
+    display: flex;
+    flex-direction: row;
+}
+
+.container-contacto {
+    width: 30%;
+    background: linear-gradient(
+        to right,
+        #B1BBBE 0%,
+        #B1BBBE 60%,
+        #fff 60%,
+        #fff 100%
+      );
+}
+
+.formulario {
+    width: 70%;
+    background-color: #F6F6F6;
+    padding:2rem;
+}
+
+form {
+display: flex;
+flex-wrap: wrap;
+width: 100%;
+gap:2rem;
+row-gap: 1rem;
+box-sizing: border-box;
+}
+
+form > span {
+    display: flex;
+    flex-direction: column;
+    width: fit-content;
+}
+
+form > span:last-of-type {
+    width: 100%;
+}
+
+input, select {
+    width: 400px;
+    height: 40px;
+    border: 1px solid #f7f7f7;
+    box-sizing: border-box;
+    padding:4px 8px;
+}
+
+textarea {
+    width: 80%;
+    height: 80px;
+}
