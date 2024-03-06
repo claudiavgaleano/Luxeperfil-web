@@ -208,19 +208,63 @@
         <script src="./js/siema/siema.min.js"></script>
         <script src="./js/hamburguer-menue.js"></script>
         <script>
-            const mySiema = new Siema({
-                perPage:1,
-                loop: true,
-                duration: 250,
-                easing: 'ease',
-            });
-            document.querySelector('.prev').addEventListener('click', () => mySiema.prev());
-            document.querySelector('.next').addEventListener('click', () => mySiema.next());
+
             const btn1 = document.querySelector('.btn-1');
             const btn2 = document.querySelector('.btn-2');
             const btn3 = document.querySelector('.btn-3');
             const btn4 = document.querySelector('.btn-4');
             const btn5 = document.querySelector('.btn-5');
+
+            function printSlideIndex() {
+                if( this.currentSlide === 0) {
+                    btn1.classList.add("active");
+                    btn2.classList.remove("active");
+                    btn3.classList.remove("active");
+                    btn4.classList.remove("active");
+                    btn5.classList.remove("active");
+                }
+                if( this.currentSlide === 1) {
+                    btn1.classList.remove("active");
+                    btn2.classList.add("active");
+                    btn3.classList.remove("active");
+                    btn4.classList.remove("active");
+                    btn5.classList.remove("active");
+                }
+                if( this.currentSlide === 2) {
+                    btn1.classList.remove("active");
+                    btn2.classList.remove("active");
+                    btn3.classList.add("active");
+                    btn4.classList.remove("active");
+                    btn5.classList.remove("active");
+                }
+                if( this.currentSlide === 3) {
+                    btn1.classList.remove("active");
+                    btn2.classList.remove("active");
+                    btn3.classList.remove("active");
+                    btn4.classList.add("active");
+                    btn5.classList.remove("active");
+                }
+                if( this.currentSlide === 4) {
+                    btn1.classList.remove("active");
+                    btn2.classList.remove("active");
+                    btn3.classList.remove("active");
+                    btn4.classList.remove("active");
+                    btn5.classList.add("active");
+                }
+            }
+
+            const mySiema = new Siema({
+                onInit: printSlideIndex,
+                onChange: printSlideIndex,
+                perPage:1,
+                loop: true,
+                duration: 250,
+                easing: 'ease',
+            });
+            
+            document.querySelector('.prev').addEventListener('click', () => mySiema.prev());
+            document.querySelector('.next').addEventListener('click', () => mySiema.next());
+
 
             btn1.addEventListener('click', () => {
                 mySiema.goTo(0);
@@ -264,6 +308,8 @@
             });
 
             setInterval(() => mySiema.next(), 10000);
+
+            
         </script>
     </body>
 </html>
