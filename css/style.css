@@ -341,10 +341,11 @@ display: none;
     flex-grow: 1;
     flex-shrink: 1;
     width: 23%;
-    min-width: 20ch;
+    min-width: 25ch;
     min-height: 20ch;
     position: relative;
     background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .grid-item > a {
@@ -363,7 +364,7 @@ display: none;
     background-image: url('../img/index/Portones01.jpg');
 }
 .grid-item#item2 {
-    background-image: url('../img/index/Mosquiteros01.png');
+    background-image: url('../img/index/Mosquiteros01.jpg');
     background-position: center;
 }
 .grid-item#item3 {
@@ -382,7 +383,7 @@ display: none;
     background-image: url('../img/index/AdobeStock_639764253.jpg');
 }
 .grid-item#item8 {
-    background-image: url('../img/index/AdobeStock_627289519.png');
+    background-image: url('../img/index/AdobeStock_627289519.jpg');
 }
 
 .grid-item::before {
