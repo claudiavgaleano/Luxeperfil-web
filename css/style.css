@@ -12,13 +12,13 @@ h1 {
     box-sizing: border-box;
 }
 
-/* html {
+html {
     background-color: #fff;
 }
 body {
-    max-width: 1080px;
+    max-width: 1920px;
     margin:0 auto;
-} */
+}
 
 p {
     font-size: 14px;
@@ -147,7 +147,7 @@ nav > a:not(.logo):hover, .social > a:hover {
 }
 
 .carousel {
-    height: 700px;
+    height: 688px;
     background-color: #fff;
     overflow: hidden;
     position: relative;
@@ -212,7 +212,7 @@ display: none;
     width: 50%;
     display: flex;
     flex-direction: column;
-    justify-content: center; 
+    justify-content: flex-start; 
     align-items: flex-end; 
     margin-left: auto;
     margin-right: 60px;
@@ -233,6 +233,7 @@ display: none;
     box-sizing: border-box;
     align-items: center;
     backdrop-filter: blur(5px);
+    margin-top: 7.5rem;
   }
 
   .carousel-text > p {
@@ -310,24 +311,25 @@ display: none;
 
   #slide-1 {
     background-image: url('../img/carousel/slide_pres.jpg');
-    background-size: 150%;
-    background-position: center;
+    background-size: 100%;
   }
   #slide-2 {
     background-image: url('../img/carousel/Porton_garage_bmw.jpg');
-    background-position: center;
+    background-size: 100%;
   }
+
   #slide-3 {
     background-image:url('../img/index/Mosquitos01.jpg');
     background-size: 100%;
-    background-position: center;
+    
   }
   #slide-4 {
     background-image: url('../img/index/Carrusel-4.jpg');
-    background-position: center;
+    background-size: 100%;
   }
   #slide-5 {
     background-image:url('../img/index/AdobeStock_496758663.jpg');
+    background-size: 100%;
   }
 
 .navgrid {
@@ -339,10 +341,10 @@ display: none;
 .grid-item {
     padding: 4rem 8px;
     flex-grow: 1;
-    flex-shrink: 1;
-    width: 23%;
-    min-width: 25ch;
-    min-height: 20ch;
+   /*  flex-shrink: 1; */
+    width: 25ch;
+   /*  min-width: 25ch; */
+    min-height: 27ch;
     position: relative;
     background-size: cover;
     background-repeat: no-repeat;
@@ -361,7 +363,7 @@ display: none;
 }
 
 .grid-item#item1 {
-    background-image: url('../img/index/Portones01.jpg');
+    background-image: url('../img/portones/Porton-Garage-Aluminio.jpg');
 }
 .grid-item#item2 {
     background-image: url('../img/index/Mosquiteros01.jpg');
@@ -458,7 +460,7 @@ grid-column-start: 2;
 }
 
 .navpad {
-    height: 600px;
+    height: 786px;
     background-color: grey;
     display: flex;
     align-items: flex-end;
@@ -644,7 +646,7 @@ a.navpad-button_mosquiteros::after, a.navpad-button.button-xxl_mosquiteros::afte
 
 .section-grid h6, .section_header, .description_title {
     font-size: 18px;
-    padding: 3rem 0;
+    padding: 1rem 0;
     color:#282828;
     max-width: 35ch;
     font-weight: 500;
@@ -663,7 +665,7 @@ a.navpad-button_mosquiteros::after, a.navpad-button.button-xxl_mosquiteros::afte
     flex-direction: column;
     align-items: center;
     width: 50%;
-    min-width: 400px;
+    min-width: 300px;
     min-height: 20rem;
     flex-grow: 1;
     flex-shrink: 1;
@@ -675,7 +677,7 @@ a.navpad-button_mosquiteros::after, a.navpad-button.button-xxl_mosquiteros::afte
     background-position: bottom center;
 }
 #eficiencia-compromiso {
-    background-image: url('../img/EFICIENCIA/Aluminio-Reciclable-Persiana.jpg')
+    background-image: url('../img/EFICIENCIA/Aluminio-Reciclable-Persiana.jpg');
 }
 
 .section-grid > div > div{
@@ -1500,7 +1502,7 @@ h6.description_title_description {
 }
 
 .grid-logistica > div.description-product_column  {
-    max-width: 40ch;
+    max-width: 30ch;
     background-color: unset;
     gap: unset;
     color: #707070;
@@ -1512,7 +1514,7 @@ div.description-product_column > p {
 }
 
 .grid-logistica_persianas1 {
-    width: 100%;
+    width: 80%;
     background: linear-gradient(
     to bottom,
     #fff 0%,
@@ -1520,6 +1522,12 @@ div.description-product_column > p {
     #EFEEEE 25%,
     #EFEEEE 100%
   );
+}
+.grid-logistica_persianas1 > div.description-product_column {
+    min-width: 20ch;
+    max-width: 40ch;
+    padding-left: 10%;
+    flex-grow:1;
 }
 
 .img_description {
@@ -1530,12 +1538,14 @@ div.description-product_column > p {
 
 .grid-logistica_persianas1 > .img {
     max-width: 30rem;
-    margin-right: 8rem;
+    margin-right: 2rem;
     margin-left: auto;
     margin-bottom: 2rem;
     flex-grow: 1;
     flex-shrink: 1;
     height: unset;
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .container-portada_persianas {
@@ -1557,12 +1567,12 @@ div.description-product_column > p {
 
 .portada_sistema_persianas {
 width: 23%;
-min-width: 290px;
+min-width: 265px;
 background-color: #EFEEEE;
 border-radius: 2rem;
 display: flex;
 padding: 1rem;
-height: 18rem;
+min-height: 18rem;
 box-sizing: border-box;
 }
 
@@ -1680,18 +1690,25 @@ a.navpad-button_portones::after {
 }
 
 .grid_portones {
-    background: url("../img/portones/LuxeEsp_PortonGarageCoche.jpg");
-    background-size:contain;
+    background: url("../img/portones/Porton-Aluminio-SimilMadera.jpg");
+    background-size:70%;
     background-repeat: no-repeat;
     border-bottom:8rem solid #BF9960;
     background-position: right;
+    width: 80%;
+    margin:0 auto;
+    box-sizing: border-box;
+}
+
+.portones-title {
+    margin-left:13%;
 }
 
 .grid_portones >.description-product_column p, .grid_motores >.description-product_column p {
     color: #2A2A2A;
     font-weight: 300;
-    text-align: center;
-    padding: 1rem 1rem 0.25rem 1rem;
+    text-align: left;
+    padding: 1rem 1rem 0.25rem 0;
     line-height: 1.5rem;
 }
 .grid-logistica_persianas1 div.description-product_column > p {
@@ -2048,7 +2065,7 @@ a.navpad-button_persiana-cajones::after {
 .destacados-item {
     display: flex;
     flex-direction: column;
-    max-width: 20rem;
+    max-width: 25rem;
     min-height: 10rem;
     align-items: center;
     box-sizing: border-box;
@@ -2444,41 +2461,34 @@ strong {
     background-repeat: no-repeat;
 }
 
+.grid-logistica > div:first-of-type.p-right-0 {
+    padding-right: 0;
+}
+
+.grid-logistica > div:first-of-type.p-right-0 + .img {
+    margin-right: 0;
+}
+
 @media (max-width: 1410px) { 
-    .grid-logistica {
+
+    .grid-logistica_persianas1 {
+        padding-left: unset !important;
         flex-direction: column;
         align-items: center;
     }
-    #logistica-img, #sucursales-img, #postventa-img, #arquitectos-img {
-        width: 100%;
-        background-size: cover;
-    }
-    .portada-sistema-persianas_content {
-        display: flex;
+    .grid-logistica_persianas1 > div.description-product_column {
+        width: 80%;
+        max-width: unset;
+        min-width: unset;
     }
 
-    .portones-text {
-        flex-grow:1;
-    }
-    .imagen-porton {
-        display: none;
-    }
-
-    .grid_con-bottom > div {
-        width: unset;
-    }
-    .grid-logistica_persianas1 {
-        padding-left: unset !important;
-    }
     .grid-logistica_persianas1 > .img {
         max-width: unset;
         margin-right: unset;
         width: 100%;
         margin-left: unset;
-    }
-
-    #slide-1, #slide-3 {
-        background-size: cover;
+        background-size: 100% auto;
+        background-position: center;
     }
 }
 
@@ -2546,4 +2556,32 @@ strong {
     .visible {
         display: block flex;
     }
+
+    .grid-logistica {
+        flex-direction: column;
+        align-items: center;
+    }
+    #logistica-img, #sucursales-img, #postventa-img, #arquitectos-img {
+        width: 100%;
+        background-size: cover;
+    }
+    .portada-sistema-persianas_content {
+        display: flex;
+    }
+
+    .portones-text {
+        flex-grow:1;
+    }
+    .imagen-porton {
+        display: none;
+    }
+
+    .grid_con-bottom > div {
+        width: unset;
+    }
+
+    #slide-1, #slide-3 {
+        background-size: cover;
+    }
+
 }

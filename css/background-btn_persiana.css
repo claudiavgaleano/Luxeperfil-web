@@ -1,7 +1,7 @@
 .cajones { 
 background-image: url('../img/PERSIANAS/Cajones-Alumino-Persiana.jpg'); /*#B1BBBE*/
 background-repeat: no-repeat;
-background-size:cover;
+background-size:contain;
 background-position: center;   
 }
 .cajones::after, .lamas::after, .guias::after, .accesorios::after {
@@ -24,7 +24,7 @@ background-position: center;
 .lamas { 
 background-image: url('../img/PERSIANAS/Lamas-Aluminio-PVC.jpg');
 background-repeat: no-repeat;
-background-size:cover;
+background-size:contain;
 background-position: center;   
 }
     
@@ -38,7 +38,7 @@ background-position: center;
 .guias { 
 background-image: url('../img/PERSIANAS/Guias-Aluminio-Extrusion.jpg');
 background-repeat: no-repeat;
-background-size:cover;
+background-size:contain;
 background-position: center;   
 }
 
@@ -52,7 +52,7 @@ background-position: top -64px left 50%;
 .accesorios { 
 background-image: url('../img/PERSIANAS/Accesorios-Persiana-Calidad.jpg');
 background-repeat: no-repeat;
-background-size:cover;
+background-size:contain;
 background-position: center;   
 }
 
@@ -85,7 +85,7 @@ background-position: center;
 }
 
 #descubre-cajones {
-    background: url('../img/PERSIANAS/a'), #EFEEEE;
+    background: url('../img/PERSIANAS/'), #EFEEEE;
     background-repeat: no-repeat;
     background-size:cover;
 }

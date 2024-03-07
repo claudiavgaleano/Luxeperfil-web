@@ -1,32 +1,32 @@
 /*cajon*/
 
 .cajon { 
-    background: url('../img/portones/COMPOSICION-PORTON-12.png');
+    background: url('../img/portones/Cajon-Porton-Motorizado.jpg');
     background-repeat: no-repeat;
     background-size:cover;
-    background-position: right;  
+    background-position: center;  
 }
 
 
 .lamas { 
-    background: url('../img/lamas/LAMAS-PORTON.png'), #fff;
+    background: url('../img/portones/Lamas-Porton-Motorizado.jpg'), #fff;
     background-repeat: no-repeat;
-    background-size:200%;
-    background-position: top 36% left 47%;   
+    background-size:cover;
+    background-position: center;   
 }
 
 .accesorios { 
-    background: url('../img/accesorios-porton/ANILLO-COMP.png'), #fff;
+    background: url('../img/portones/Accesorios-Porton-ControlRemoto.jpg'), #fff;
     background-repeat: no-repeat;
-        background-size:150%;
-    background-position: top 39% left 47%;    
+    background-size:cover;
+    background-position: center;    
 }
 
 .guias { 
-    background: url('../img/guias/GUIA-PORTON-CAJON.png'), #fff;
+    background: url('../img/portones/Guias-Porton-Motorizado.jpg'), #fff;
     background-repeat: no-repeat;
-    background-size:150%;
-    background-position:top 9% left 23%;   
+    background-size:cover;
+    background-position:center;   
 }
 
 #porton-cajon {
