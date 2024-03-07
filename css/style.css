@@ -1781,6 +1781,7 @@ a.navpad-button_portones::after {
 .portada_sistema_persianas > .card-contacto {
     width: 90%;
     margin-left: unset;
+    padding:1.5rem
 
 }
 .portada_sistema_persianas.contacto {
@@ -1788,6 +1789,13 @@ a.navpad-button_portones::after {
     justify-content: center;
     height: fit-content;
     min-height: 200px;
+    flex-direction: column;
+    padding: unset;
+}
+
+.portada_sistema_persianas.contacto > img {
+    border-top-right-radius: 2rem;
+    border-top-left-radius: 2rem;
 }
 .portada_sistema_persianas > .card-contacto > .data-container {
     align-self: flex-start;
