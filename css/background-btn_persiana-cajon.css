@@ -3,7 +3,7 @@
 .eficiency { 
     background: url('../img/cajones/Cajon-Inyectado-RPT.jpg'), #B1BEB8;
     background-repeat: no-repeat;
-    background-size:150%;
+    background-size:cover;
     background-position: center;  
 }
 
@@ -45,7 +45,7 @@
 .pvc { 
     background: url('../img/cajones/Cajon-PVC-DobleTabique.jpg'), #B1BEB8;
     background-repeat: no-repeat;
-    background-size:150%;
+    background-size:cover;
     background-position: center;   
 }
 .pvc-button {
@@ -58,14 +58,14 @@
 .design { 
     background: url('../img/cajones/Cajon-PVC-Extrusion.jpg'), #B1BEB8;
     background-repeat: no-repeat;
-    background-size:150%;
+    background-size:cover;
     background-position: center;   
 }
 
 .elegance { 
     background: url('../img/cajones/Cajon-Extrusion-PVC.jpg'), #B1BEB8;
     background-repeat: no-repeat;
-    background-size:150%;
+    background-size:cover;
     background-position: center;    
 }
 
