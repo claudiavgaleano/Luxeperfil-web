@@ -1,86 +1,99 @@
 /*cajon*/
 
 .eficiency { 
-    background: url('../img/cajones/luxebox.png'), #B1BEB8;
+    background: url('../img/cajones/Cajon-Inyectado-RPT.jpg'), #B1BEB8;
     background-repeat: no-repeat;
     background-size:150%;
     background-position: center;  
 }
 
-.eficiency:hover {
-    background: url('../img/cajones/luxebox.png'), #fff;
+.eficiency-button {
+    background: url('../img/cajones/Cajon-Persiana-RPT.jpg'), #B1BEB8;
     background-repeat: no-repeat;
-       background-size:150%;
-    background-position: center;
+    background-size:cover;
+    background-position: center; 
 }
 
 .security { 
-    background: url('../img/cajones/pvc_3_extruida.png'), #B1BEB8;
+    background: url('../img/cajones/Cajon-Extruido-Seguridad.jpg'), #B1BEB8;
     background-repeat: no-repeat;
-        background-size:150%;
+    background-size:cover;
     background-position: center;   
 }
 
-.security:hover {
-    background: url('../img/cajones/pvc_3_extruida.png'), #fff;
+.security-button {
+    background: url('../img/cajones/Cajon-Persiana-Seguridad.jpg'), #B1BEB8;
     background-repeat: no-repeat;
-        background-size:150%;
-    background-position: center;
+    background-size:cover;
+    background-position: center; 
 }
+
 
 .perfilados { 
-    background: url('../img/cajones/4partes.png'), #B1BEB8;
+    background: url('../img/cajones/Cajon-Perfilado-4Partes.jpg'), #B1BEB8;
     background-repeat: no-repeat;
-        background-size:150%;
+    background-size:cover;
     background-position: center;    
 }
-
-.perfilados:hover {
-    background: url('../img/cajones/4partes.png'), #fff;
+.perfilados-button {
+    background: url('../img/cajones/Cajon-Persiana-Perfilado.jpg');
     background-repeat: no-repeat;
-    background-size:150%;
-    background-position: center;
+    background-size:cover;
+    background-position: center; 
 }
 
 .pvc { 
-    background: url('../img/cajones/pvc_doble_tabique.png'), #B1BEB8;
+    background: url('../img/cajones/Cajon-PVC-DobleTabique.jpg'), #B1BEB8;
     background-repeat: no-repeat;
     background-size:150%;
     background-position: center;   
 }
-
-.pvc:hover {
-    background: url('../img/cajones/pvc_doble_tabique.png'), #fff;
+.pvc-button {
+        background: url('../img/cajones/Cajon-Persiana-Ecoeficiente.jpg'), #B1BEB8;
     background-repeat: no-repeat;
-    background-size:150%;
-    background-position: center;
+    background-size:cover;
+    background-position: center; 
 }
 
 .design { 
-    background: url('../img/cajones/pvc_1_extruida.png'), #B1BEB8;
+    background: url('../img/cajones/Cajon-PVC-Extrusion.jpg'), #B1BEB8;
     background-repeat: no-repeat;
     background-size:150%;
     background-position: center;   
 }
 
-.design:hover {
-    background: url('../img/cajones/pvc_1_extruida.png'), #fff;
-    background-repeat: no-repeat;
-    background-size:150%;
-    background-position: center;
-}
-
 .elegance { 
-    background: url('../img/cajones/pvc_2_extruida.png'), #B1BEB8;
+    background: url('../img/cajones/Cajon-Extrusion-PVC.jpg'), #B1BEB8;
     background-repeat: no-repeat;
     background-size:150%;
     background-position: center;    
 }
 
-.elegance:hover {
-    background: url('../img/cajones/pvc_2_extruida.png'), #fff;
-    background-repeat: no-repeat;
-    background-size:150%;
-    background-position: center;
+.eficiency::after,
+.eficiency-button::after,
+.design::after,
+.elegance::after,
+.pvc::after,
+.pvc-button::after,
+.perfilados::after,
+.perfilados-button::after,
+.security::after,
+.security-button::after {
+    background-color:rgba(177, 190, 184, 0.5);
+    background-blend-mode: multiply;
 }
+
+.eficiency::after:hover,
+.eficiency-button::after:hover,
+.design::after:hover,
+.elegance::after:hover,
+.pvc::after:hover,
+.pvc-button::after:hover,
+.perfilados::after:hover,
+.perfilados-button::after:hover,
+.security::after:hover,
+.security-button::after:hover {
+    display: none;
+}
+
 

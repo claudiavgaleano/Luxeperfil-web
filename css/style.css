@@ -916,11 +916,11 @@ backdrop-filter: blur(5px);
 }
 
 .grid_motores {
-    background: url("../img/persianas_motores_intro.png");
-    border-bottom:8rem solid #E7ADAD;
+    background: url("../img/motores/Persianas-Inteligentes-Motorizadas.jpg");
+    border-bottom: 8rem solid #E7ADAD;
     background-repeat: no-repeat;
     background-size: contain;
-    background-position: right bottom;
+    background-position: right 20% bottom;
 }
 
 .intro-motores {
@@ -2152,13 +2152,13 @@ a.navpad-button_persiana-cajones::after {
 }
 
 #cajones-portada {
-    background-image: url('../img/cajones/Alucofer_Tapa4P.jpg');
+    background-image: url('../img/cajones/Cajon-Persiana-AluminioPVC.jpg');
     background-repeat: no-repeat;
     background-size:100%;
     background-position: center;
 }
 #mosquiteros {
-    background-image: url('../img/mosquiteros/LuxeEsp_Mosquiteros02.jpg');
+    background-image: url('../img/mosquiteros/Mosquiteros-Cabezal-Enrollable.jpg');
     background-repeat: no-repeat;
     background-size:cover;
 }
@@ -2170,7 +2170,7 @@ a.navpad-button_persiana-cajones::after {
 }
 
 #mosquiteros-img {
-background-image: url('../img/mosquiteros/LuxeEsp_Mosquiteros03.jpg');
+background-image: url('../img/mosquiteros/Dengue-Mosquitos-TelaMosquitera.jpg');
 background-repeat: no-repeat;
 background-size:cover;
 background-position: left;

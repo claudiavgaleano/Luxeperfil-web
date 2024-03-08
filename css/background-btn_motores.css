@@ -1,25 +1,32 @@
 .persianas { 
-background: url('../img/motores/motor-persiana.jpg'), #B1BBBE;
+background: url('../img/motores/Motor-Tubular-Persiana.jpg'), #B1BBBE;
 background-repeat: no-repeat;
 background-size:cover;
 background-position: center;   
 }
 
 .portones { 
-background: url('../img/motores/motor-porton.jpg'), #B1BBBE;
+background: url('../img/motores/Motor-Tubular-Porton.jpg'), #B1BBBE;
 background-repeat: no-repeat;
 background-size:cover;
 background-position: center;   
 }
 
 .instructivos { 
-background: url('../img/motores/instructivos.png'), #B1BBBE;
+background: url('../img/motores/Videos-Motor-Persiana.jpg'), #B1BBBE;
 background-repeat: no-repeat;
 background-size:cover;
 background-position: center;   
 }
 
+.persianas::after, .portones::after, .instructivos::after {
+    background-color:rgba(177, 187, 190, 0.5);
+    background-blend-mode: multiply;
+}
 
+.persianas::after:hover, .portones::afte:hover, .instructivos::after:hover {
+display:none;
+}
 
 
     
