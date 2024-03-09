@@ -1,55 +1,119 @@
 .button-persiana_guia::after {
+background-color:rgba(196, 173, 165, 0.3);
+background-blend-mode: multiply;
+}
+
+.button-persiana_guia::after:hover {
    display: none;
-    );
 }
 
-.button-persiana_guia {
-    background-color: #C4ADA5;
-    background-size:cover;
-}
-
-.button-persiana_guia:hover {
-    background-color: #fff;
-}
-
-
-.recambio { 
-background-image: url('../img/guias/GUIA-RECAMBIO.png');
-background-repeat: no-repeat;
-background-size:cover;
-background-position: center;   
-}
-
-.esp130 { 
-background-image: url('../img/guias/GUIA-E130.png');
+.esp120 { 
+background-image: url('../img/guias/Guias-Cajon-SalidaInferior.jpg');
 background-repeat: no-repeat;
 background-size:cover;
 background-position: center;  
 }
 
+.esp130 { 
+background-image: url('../img/guias/Guias-Enrasada-137.jpg');
+background-repeat: no-repeat;
+background-size:cover;
+background-position: center;  
+}
+
+.esp150 { 
+background-image: url('../img/guias/Guias-Enrasada-155.jpg');
+background-repeat: no-repeat;
+background-size:cover;
+background-position: center;  
+}
+
+.esp160 { 
+background-image: url('../img/guias/Guias-Enrasada-165.jpg');
+background-repeat: no-repeat;
+background-size:cover;
+background-position: center;  
+}
+
+.esp180 { 
+background-image: url('../img/guias/Guias-Enrasada-185.jpg');
+background-repeat: no-repeat;
+background-size:cover;
+background-position: center;  
+}
+
+.recambio { 
+background-image: url('../img/guias/Guias-Sustitucion-FacilInstalacion.jpg');
+background-repeat: no-repeat;
+background-size:cover;
+background-position: center;   
+}
+
 .rpt150 { 
-background-image: url('../img/guias/GUIA-150-RPT.png');
+background-image: url('../img/guias/Guias-RPT150-EficienciaEnergetica.jpg');
+background-repeat: no-repeat;
+background-size:cover;
+background-position: center; 
+}
+
+.rpt175 { 
+background-image: url('../img/guias/Guias-RPT175-EficienciaEnergetica.jpg');
 background-repeat: no-repeat;
 background-size:cover;
 background-position: center; 
 }
 
 .pl120 { 
-background-image: url('../img/guias/GUIA-PL120.png');
+background-image: url('../img/guias/Guias-Motorizados-137.jpg');
+background-repeat: no-repeat;
+background-size:cover;
+background-position: center; 
+}
+
+.pl160 { 
+background-image: url('../img/guias/Guias-Motorizados-165.jpg');
 background-repeat: no-repeat;
 background-size:cover;
 background-position: center; 
 }
 
 .central { 
-background-image: url('../img/guias/GUIA-CENTRAL.png');
+background-image: url('../img/guias/Guias-Sistemas-Divididos.jpg');
 background-repeat: no-repeat;
 background-size:cover;
 background-position: center; 
 }
 
 .h25 { 
-background-image: url('../img/guias/GUIA-h25.png');
+background-image: url('../img/guias/Guias-MiniExterior-FacilInstalacion.jpg');
+background-repeat: no-repeat;
+background-size:cover;
+background-position: center; 
+}
+
+.pl-button {
+background-image: url('../img/guias/Persiana-Guias-Motorizadas.jpg');
+background-repeat: no-repeat;
+background-size:cover;
+background-position: center; 
+}
+
+.sustitucion-button {
+background-image: url('../img/guias/Persiana-Guias-Sustitucion.jpg');
+background-repeat: no-repeat;
+background-size:cover;
+background-position: center; 
+}
+
+.rpt-button {
+background-image: url('../img/guias/Persiana-Guias-RoturaPuenteTermico.jpg');
+background-repeat: no-repeat;
+background-size:cover;
+background-position: center; 
+}
+
+.esp-button {
+background-image: url('../img/guias/Persiana-Guias-Especiales.jpg');
 background-repeat: no-repeat;
 background-size:cover;
 background-position: center; 
