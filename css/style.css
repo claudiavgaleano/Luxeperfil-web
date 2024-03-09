@@ -1906,11 +1906,6 @@ text-align: left;
     border-top-color: #B1BEB8;
 }
 
-a.navpad-button_persiana-lamas::after {
-    background-color: rgb(196,188,165);
-    mix-blend-mode: color;
-}
-
 a.navpad-button_persiana-cajones::after {
     background-color: #B1BEB8;
     mix-blend-mode: color;
@@ -2210,9 +2205,10 @@ background-position: left;
 }
 
 #lamas-portada {
-    background-image: url('../img/lamas/AdobeStock_356214093.jpg');
-    /*  background-repeat: no-repeat; */
-     background-size:cover;
+    background-image: url('../img/lamas/Persianas-Lamas-Aluminio.jpg');
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
 }
 
 #productos-portada {

@@ -1,73 +1,83 @@
-.eficiency, .lp43 { 
-background: url('../img/lamas/LAMA-LP43C.png'), #C4BCA5;
+.eficiency { 
+background: url('../img/lamas/Persianas-Lamas-Inyectadas.jpg');
 background-repeat: no-repeat;
-background-size:100%;
+background-size:cover;
+background-position: center;   
+}
+.lp43 { 
+background: url('../img/lamas/Lamas-Eficiencia-Poliuretano.jpg');
+background-repeat: no-repeat;
+background-size:cover;
 background-position: center;   
 }
 
-.eficiency:hover, .lp43:hover {
-background: url('../img/lamas/LAMA-LP43C.png'), #fff;
+.security { 
+background: url('../img/lamas/Persianas-Lamas-Seguridad.jpg');
 background-repeat: no-repeat;
-background-size:100%;
-background-position: center;
-}
-
-.security, .ab-39 { 
-background: url('../img/lamas/ab39.png'), #C4BCA5;
-background-repeat: no-repeat;
-background-size:100%;
+background-size:cover;
 background-position: center;   
 }
-    
-.security:hover, .ab-39:hover {
-background: url('../img/lamas/ab39.png'), #fff;
+.ab-39 { 
+background: url('../img/lamas/Lamas-Seguridad-Autoblocante.jpg');
 background-repeat: no-repeat;
-background-size:100%;
-background-position: center; 
+background-size:cover;
+background-position: center;   
+}
+
+.pvc-button { 
+background: url('../img/lamas/Persianas-PVC-ProteccionSolar.jpg');
+background-repeat: no-repeat;
+background-size:cover;
+background-position: center;   
 }
 
 .pvc { 
-background: url('../img/lamas/LAMA-PVC45.png'), #C4BCA5;
+background: url('../img/lamas/Lamas-ProteccionSolar-PVC.jpg');
 background-repeat: no-repeat;
-background-size:81%;
+background-size:cover;
 background-position: center;   
-}
-
-.pvc:hover {
-background: url('../img/lamas/LAMA-PVC45.png'), #fff;
-background-repeat: no-repeat;
-background-size:81%;
-background-position: center; 
 }
 
 .renove { 
-background: url('../img/lamas/LAMA-LP55C1.png'), #C4BCA5;
+background: url('../img/lamas/Persianas-Inyectadas-AmpliaCobertura.jpg');
 background-repeat: no-repeat;
-background-size:200%;
+background-size:cover;
 background-position: center;   
 }
 
-.renove:hover {
-background: url('../img/lamas/LAMA-LP55C1.png'), #fff;
+.lp55 { 
+background: url('../img/lamas/Lamas-Sustitucion-AmpliaCobertura.jpg');
 background-repeat: no-repeat;
-background-size: 200%;
-background-position: center;
+background-size:cover;
+background-position: center;   
 }
 
 .lp-42 { 
-background: url('../img/lamas/LAMA_LP42.png'), #C4BCA5;
+background: url('../img/lamas/Lamas-Seguridad-Anodizadas.jpg');
 background-repeat: no-repeat;
-background-size: 99%;
+background-size: cover;
 background-position: center;   
 }
-
-.lp-42:hover {
-background: url('../img/lamas/LAMA_LP42.png'), #fff;
-background-repeat: no-repeat;
-background-size:99%;
-background-position: center;
+  
+.eficiency::after,
+.security::after,
+.renove::after,
+.pvc::after,
+.pvc-button::after,
+.lp-42::after,
+.lp-43::after,
+.ab39::after {
+    background-color:rgba(196, 188, 165, 0.3);
+    background-blend-mode: multiply;
 }
-    
-.eficiency::after, .security::after, .renove::after, .pvc::after, .lp-42::after {
-    display: none;
+
+.eficiency::after:hover,
+.security::after:hover,
+.renove::after:hover,
+.pvc::after:hover,
+.pvc-button::after:hover,
+.lp-42::after:hover,
+.lp-43::after:hover,
+.ab39::after:hover {
+    display:none;
 }
