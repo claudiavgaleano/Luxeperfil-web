@@ -1,5 +1,10 @@
 .button-persiana_accesorios::after {
-    display: none;
+     background-color:rgba(177, 187, 190, 0.3);
+     background-blend-mode: multiply;
+}
+
+.button-persiana_accesorios::after.button-persiana_accesorios:hover {
+     display: none;
 }
 
 .button-persiana_accesorios {
@@ -7,28 +12,24 @@
     background-size:cover;
 }
 
-.button-persiana_accesorios:hover {
-    background-color: #fff;
-}
-
 .compacto { 
-background: url('../img/accesorios-compacto/CONTERA40.png'), #B1BBBE;
+background: url('../img/accesorios-persiana/Accesorios-Persiana-Compacto.jpg'), #B1BBBE;
 background-repeat: no-repeat;
-background-size:150%;
+background-size:cover;
 background-position: center;   
 }
 
 .mini { 
-background: url('../img/accesorios-compacto/TORNILLOS_PINTADOS.png'), #B1BBBE;
+background: url('../img/accesorios-persiana/Accesorios-Persiana-MiniExterior.jpg'), #B1BBBE;
 background-repeat: no-repeat;
-background-size:100%;
+background-size:cover;
 background-position: center;   
 }
 
 .alto-pesaje { 
-background: url('../img/accesorios-porton/PLACA-RODAMIENTO-ACEITADO.png'), #B1BBBE;
+background: url('../img/accesorios-persiana/Accesorios-Persiana-AltoPesaje.jpg'), #B1BBBE;
 background-repeat: no-repeat;
-background-size:150%;
+background-size:cover;
 background-position: center;   
 }
 
@@ -40,54 +41,75 @@ background-position: center;
 }
 
 .enr-cinta {
-    background-image: url('../img/accesorios-compacto/ENR-EMBUTIR.png');
+    background-image: url('../img/accesorios-persiana/Enrollador-Embutir-Cinta.jpg');
 }
 .pasacinta {
-    background-image: url('../img/accesorios-compacto/PASACINTAS.png');
+    background-image: url('../img/accesorios-persiana/Pasacinta-Compacto-Perfilado.jpg');
 }
 .embudo-milano {
-    background-image: url('../img/accesorios-compacto/EMBUDO-MILANO.png');
+    background-image: url('../img/accesorios-persiana/Embudo-Compacto-PVC.jpg');
 }
 .discos {
-     background-image: url('../img/accesorios-compacto/DISCO-120.png');
+     background-image: url('../img/accesorios-persiana/Disco-Persiana-Compacto.jpg');
 }
 .conteras {
-     background-image: url('../img/accesorios-compacto/CONTERA40.png');
+     background-image: url('../img/accesorios-persiana/Contera-Persiana-Ruleman.jpg');
 }
 .cerrojos {
-     background-image: url('../img/accesorios-compacto/CERROJO.png');
+     background-image: url('../img/accesorios-persiana/Cerrojo-Metalico-Persiana.jpg');
 }
 .tornillos {
-     background-image: url('../img/accesorios-compacto/TORNILLOS_PINTADOS.png');
+     background-image: url('../img/accesorios-persiana/Tornillo-Pintado-Persiana.jpg');
 }
 .placa-milano {
-     background-image: url('../img/accesorios-compacto/PLACA-MILANO.png');
+     background-image: url('../img/accesorios-persiana/Placa-Testero-PVC.jpg');
 }
 .enr-manivela {
-    /*  background-image: url('../img/accesorios-compacto/EMBUDO-MILANO.png'); */
+     background-image: url('../img/accesorios-persiana/Enrollador-Manivela-Persiana.jpg');
 }
+
 .enr-cordon {
-     /* background-image: url('../img/accesorios-compacto/EMBUDO-MILANO.png'); */
+     background-image: url('../img/accesorios-persiana/Enrollador-Cordon-MiniExterior.jpg');
 }
 .pasacinta-cordon {
-    /*  background-image: url('../img/accesorios-compacto/EMBUDO-MILANO.png'); */
+     background-image: url('../img/accesorios-persiana/Pasacintas-Cordon-MiniExterior.jpg');
 }
+.mini-enr-cordon {
+     background-image: url('../img/accesorios-persiana/Enrollador-Cordon-MiniExterior.jpg');
+}
+
+.mini-enr-cinta {
+     background-image: url('../img/accesorios-persiana/Pasacintas-Cinta-MiniExterior.jpg');
+}
+
+.disco-zamak {
+     background-image: url('../img/accesorios-persiana/Disco-Metalico-MiniExterior.jpg');
+}
+
 .placa-rod-metalico {
-     background-image: url('../img/accesorios-porton/PLACA-RODAMIENTO-ACEITADO.png');
+     background-image: url('../img/accesorios-persiana/Placa-Ruleman-AltoPesaje.jpg');
 }
 .contera-teles {
-     background-image: url('../img/accesorios-porton/CONTERA-TELESCOPICA.png');
+     background-image: url('../img/accesorios-persiana/Contera-Telscopica-AltoPesaje.jpg');
 }
-.central {
-     /* background-image: url('../img/accesorios-compacto/EMBUDO-MILANO.png'); */
+.recambio-discos {
+     background-image: url('../img/accesorios-persiana/Disco-Persiana-Sustitucion.jpg');
 }
-.h25-mini {
-     /* background-image: url('../img/accesorios-compacto/EMBUDO-MILANO.png'); */
+.recambio-cinta {
+     background-image: url('../img/accesorios-persiana/Cinta-Enrollador-Persiana.jpg');
 }
-.acc-renove {
-     /* background-image: url('../img/accesorios-compacto/EMBUDO-MILANO.png'); */
+.recambio-enr {
+     background-image: url('../img/accesorios-persiana/Enrollador-Persiana-Sustitucion .jpg');
 }
 
-    
-    
+.recambio-placa {
+     background-image: url('../img/accesorios-persiana/Placa-Embellecedora-Persiana.jpg');
+}
 
+.recambio-embudo {
+     background-image: url('../img/accesorios-persiana/Embudo-Metalico-Persiana.jpg');
+}
+
+.recambio-soporte {
+     background-image: url('../img/accesorios-persiana/Grampa-Metalica-Persiana.jpg');
+}
