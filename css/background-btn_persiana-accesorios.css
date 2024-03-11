@@ -71,15 +71,15 @@ background-position: center;
 .enr-cordon {
      background-image: url('../img/accesorios-persiana/Enrollador-Cordon-MiniExterior.jpg');
 }
-.pasacinta-cordon {
-     background-image: url('../img/accesorios-persiana/Pasacintas-Cordon-MiniExterior.jpg');
+.pasacintas-cinta {
+     background-image: url('../img/accesorios-persiana/Pasacintas-Cinta-MiniExterior.jpg');
 }
 .mini-enr-cordon {
-     background-image: url('../img/accesorios-persiana/Enrollador-Cordon-MiniExterior.jpg');
+     background-image: url('../img/accesorios-persiana/Pasacintas-Cordon-MiniExterior.jpg');
 }
 
 .mini-enr-cinta {
-     background-image: url('../img/accesorios-persiana/Pasacintas-Cinta-MiniExterior.jpg');
+     background-image: url('../img/accesorios-persiana/Enrollador-Cinta-MiniExterior.jpg');
 }
 
 .disco-zamak {
