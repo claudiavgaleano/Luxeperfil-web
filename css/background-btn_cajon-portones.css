@@ -1,10 +1,13 @@
 .cajon-300 { 
-background: url('../img/cajones/PORTON300.png');
+background: url('../img/portones-cajon/Cajon-Porton-Testero.jpg');
 background-repeat: no-repeat;
 background-size: cover;
 background-position: right;   
 }
 
-.cajon-300:hover {
-background-color: #fff;
-}
+.cajon-300-xxl { 
+    background: url('../img/portones-cajon/Cajon-Testero-Porton.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: right;   
+    }

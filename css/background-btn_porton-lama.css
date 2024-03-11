@@ -1,39 +1,48 @@
-.button-lama-porton { 
-background: url('../img/lamas/LAMAS-PORTON.png');
-background-repeat: no-repeat;
-background-size: 100%;
-background-position: center;
-background-color: #ffc785;   
-}
-
 .button-lama-porton-lp78 { 
-background: url('../img/lamas/lp78c.png');
+background: url('../img/portones-lamas/Porton-Lamas-Eficiencia.jpg');
 background-repeat: no-repeat;
-background-size: contain;
-background-position: center;
-background-color: #ffc785;   
+background-size: cover;
+background-position: center;   
 }
 
 .button-lama-porton-lp100ec { 
-background: url('../img/lamas/lp100ec.png');
+background: url('../img/portones-lamas/Porton-Lamas-Seguridad.jpg');
 background-repeat: no-repeat;
-background-size: contain;
-background-position: center;
-background-color: #ffc785;   
+background-size: cover;
+background-position: center;   
 }
 
 .button-lama-porton-lp100ect { 
-background: url('../img/lamas/lp100ect.png');
+background: url('../img/portones-lamas/Porton-Lamas-Garage.jpg');
 background-repeat: no-repeat;
-background-size: contain;
-background-position: center;
-background-color: #ffc785;   
+background-size: cover;
+background-position: center;   
 }
 
-.button-lama-porton:hover, .button-lama-porton-lp78:hover, .button-lama-porton-lp100ec:hover, .button-lama-porton-lp100ect:hover {
-    background-color: #fff;
+.button-lama-porton-lp78-xxl { 
+background: url('../img/portones-lamas/Porton-Lamas-Inyectadas.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;   
 }
 
-.button-lama-porton::after, .button-lama-porton-lp78::after, .button-lama-porton-lp100ec::after, .button-lama-porton-lp100ect::after {
+.button-lama-porton-lp100ec-xxl { 
+background: url('../img/portones-lamas/Porton-Lamas-Extrusion.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;   
+}
+
+.button-lama-porton-lp100ect-xxl { 
+background: url('../img/portones-lamas/Porton-Lamas-Troqueladas.jpg');
+background-repeat: no-repeat;
+background-size: cover;
+background-position: center;   
+}
+
+.button-lama-porton::after:hover,
+.button-lama-porton-lp78::after:hover,
+.button-lama-porton-lp100ec::after:hover,
+.button-lama-porton-lp100ect::after:hover {
     display: none;
 }

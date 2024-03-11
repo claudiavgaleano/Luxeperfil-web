@@ -2172,9 +2172,10 @@ background-position: left;
 }
 
 #lamas-portones {
-    background-image: url('../img/portones/Alucofer_tablillasPorton.jpg');
+    background-image: url('../img/portones-lamas/Porton-Garage-Lamas.jpg');
     background-repeat: no-repeat;
     background-size:cover;
+    background-position: center;
 }
 
 #accesorios-porton {
