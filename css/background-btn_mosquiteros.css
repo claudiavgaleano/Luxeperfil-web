@@ -15,5 +15,34 @@
     background-position: center;   
 }
 
+/* productos-mosquitero*/
+.vertical-button { 
+    background: url('../img/mosquiteros/Mosquitero-Aluminio-Vertical.jpg'), #fff;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;   
+}
+
+.lateral-button { 
+    background: url('../img/mosquiteros/Mosquitero-Aluminio-Lateral.jpg'), #fff;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;   
+}
+
+.vertical-xxl { 
+    background: url('../img/mosquiteros/Mosquitero-Vertical-FacilInstalacion.jpg'), #fff;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;   
+}
+
+.lateral-xxl { 
+    background: url('../img/mosquiteros/Mosquitero-Lateral-FacilInstalacion.jpg'), #fff;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;   
+}
+
 
 

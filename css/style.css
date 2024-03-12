@@ -609,7 +609,7 @@ a.navpad-button_motor::after {
 }
 
 a.navpad-button_mosquiteros::after, a.navpad-button.button-xxl_mosquiteros::after {
-    background-color: rgba(144,193,167,0.7);
+    background-color: rgba(144,193,167,0.5);
 }
 
 .navpad-button:hover > i {
@@ -2159,7 +2159,7 @@ a.navpad-button_persiana-cajones::after {
 }
 
 #mosquitero-portada {
-    background-image: url('../img/mosquiteros/LuxeEsp_Mosquiteros04.jpg');
+    background-image: url('../img/mosquiteros/Mosquiteros-Lateral-Vertical.jpg');
     background-repeat: no-repeat;
     background-size:cover;
 }
