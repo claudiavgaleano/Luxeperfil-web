@@ -8,16 +8,27 @@ background-position: center;
 .button-guia-porton:hover {
     background-color: #fff;
 }
+.con-cajon-button {
+    background-image: url('../img/guia-porton/Guias-Porton-ConCajon.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.renove-button {
+    background-image: url('../img/guia-porton/Porton-Guias-SinCajon.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 .con-cajon {
-    background-image: url('../img/guias/GUIA-PORTON-CAJON.png');
+    background-image: url('../img/guia-porton/Porton-Guias-ConCajon.jpg');
     background-size: cover;
     background-repeat: no-repeat;
 }
 
 .renove {
-    background-image: url('../img/guias/GUIA-PORTON-RECAMBIO.png');
+    background-image: url('../img/guia-porton/Guias-Porton-SinCajon.jpg');
     background-size: cover;
     background-repeat: no-repeat;
 }
-
 
