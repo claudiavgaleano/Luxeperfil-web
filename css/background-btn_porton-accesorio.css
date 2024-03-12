@@ -1,7 +1,7 @@
 .button-accesorio-porton { 
 /* background: url('../img/lamas/LAMAS-PORTON.png'); */
 background-repeat: no-repeat;
-background-size: 150%;
+background-size: cover;
 background-position: center;   
 }
 
@@ -15,52 +15,52 @@ background-position: center;
 }
 
 .rodillos {
-    background-image: url('../img/accesorios-porton/RODILLO_v02.png');
+    background-image: url('../img/accesorios-porton/Accesorios-Porton-Rodillos.jpg');
     background-size: cover;
     background-repeat: no-repeat;
 }
 .anillos {
-    background-image: url('../img/accesorios-porton/ANILLO-COMP.png');
+    background-image: url('../img/accesorios-porton/Accesorios-Porton-Anillos.jpg');
     background-size: cover;
     background-repeat: no-repeat;
 }
 .rodamientos {
-    background-image: url('../img/accesorios-porton/ROD.png');
+    background-image: url('../img/accesorios-porton/Accesorios-Porton-Rulemanes.jpg');
     background-size: cover;
     background-repeat: no-repeat;
 }
 .tapones {
-    background-image: url('../img/accesorios-porton/TAPON-LP75.png');
+    background-image: url('../img/accesorios-porton/Accesorios-Porton-TaponLama.jpg');
     background-size: cover;
     background-repeat: no-repeat;
 }
 .placa-rule {
-    background-image: url('../img/accesorios-porton/PLACA-RODAMIENTO-ACEITADO.png');
+    background-image: url('../img/accesorios-porton/Accesorios-Porton-PlacaRuleman.jpg');
     background-size: cover;
     background-repeat: no-repeat;
 }
 .placa {
-    background-image: url('../img/accesorios-porton/PLACA-ROD.png');
+    background-image: url('../img/accesorios-porton/Accesorios-Porton-PlacaMetalica.jpg');
     background-size: cover;
     background-repeat: no-repeat;
 }
 .testero {
-    background-image: url('../img/accesorios-porton/TESTERO-300.png');
+    background-image: url('../img/accesorios-porton/Accesorios-PortonCajon-Testero.jpg');
     background-size: cover;
     background-repeat: no-repeat;
 }
 .tirantes {
-    background-image: url('../img/accesorios-porton/TIRANTE.png');
+    background-image: url('../img/accesorios-porton/Accesorios-Porton-Flejes.jpg');
     background-size: cover;
     background-repeat: no-repeat;
 }
 .contera-teles {
-    background-image: url('../img/accesorios-porton/CONTERA-TELESCOPICA.png');
+    background-image: url('../img/accesorios-porton/Accesorios-Porton-ConteraTelescopica.jpg');
     background-size: cover;
     background-repeat: no-repeat;
 }
 .escuadras {
-    background-image: url('../img/accesorios-porton/ESCUADRA.png');
+    background-image: url('../img/accesorios-porton/Accesorios-PortonObra-Escuadra.jpg');
     background-size: cover;
     background-repeat: no-repeat;
 }
