@@ -2235,7 +2235,7 @@ background-position: left;
     background-image: url('../img/DESCARGAS/Descargas-LuxePerfil-Argentina.jpg');
     background-repeat: no-repeat;
     background-size: cover;
-    background-position: center;
+    background-position: left;
 }
 
 #portada-servicios {
@@ -2318,8 +2318,8 @@ background-position: left;
 }
 
 .img-descargas {
-    height: 70px;
-    width: auto;
+    height: auto;
+    width: 188px;
 }
 .align-left {
     align-items: flex-start;

@@ -1,13 +1,21 @@
 #videos {
-    background-image: url('../img/DESCARGAS/AdobeStock_336905311.jpg');   
+    background-image: url('../img/DESCARGAS/Videos-Armado-LuxePerfil.jpg');   
     background-color:#fff;
     background-repeat: no-repeat;
     background-position: center;
     background-size:contain;  
 }
 
-#instructivos, #garantia {
-    background-image: url('../img/DESCARGAS/AdobeStock_83889330.jpg');    
+#instructivos {
+    background-image: url('../img/DESCARGAS/Instructivos-LuxePerfil-Argentina.jpg');    
+    background-color:#fff;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:contain;  
+}
+
+#garantia {
+    background-image: url('../img/DESCARGAS/Garantia-LuxePerfil-Argentina.jpg');    
     background-color:#fff;
     background-repeat: no-repeat;
     background-position: center;
@@ -15,7 +23,7 @@
 }
 
 #folletos {
-    background-image: url('../img/index/ecopvc-thumb.png');
+    background-image: url('../img/DESCARGAS/Folletos-Productos-LuxePerfil.jpg');
     background-color:#fff;
     background-repeat: no-repeat;
     background-position: center;
@@ -23,7 +31,7 @@
 }
 
 #catalogo {
-    background-image: url('../img/DESCARGAS/AdobeStock_266725631.jpg'); 
+    background-image: url('../img/DESCARGAS/Catalogo-Productos-LuxePerfil.jpg'); 
     background-color:#fff;
     background-repeat: no-repeat;
     background-position: center;
