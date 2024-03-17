@@ -20,18 +20,32 @@ background-position: center;
 }
 
 .motor {
-background: url('../img/motores/motor.jpg'), #B1BBBE;
+background: url('../img/motores/Motores-Persiana-Control40.jpg');
+background-repeat: no-repeat;
+background-size:cover;
+background-position: center;
+}
+
+.motor-60 {
+background: url('../img/motores/Motores-Persiana-Control60.jpg');
 background-repeat: no-repeat;
 background-size:cover;
 background-position: left;
 }
 
-.motor-60 {
-    background: url('../img/motores/Render_Motor60Generic.png'), #B1BBBE;
-    background-repeat: no-repeat;
-    background-size:cover;
-    background-position: left;
-    }
+.motor-tecla {
+background: url('../img/motores/Motores-Persiana-Tecla40.jpg');
+background-repeat: no-repeat;
+background-size:cover;
+background-position: center;
+}
+
+.motor-60-tecla {
+background: url('../img/motores/Motores-Persiana-Tecla60.jpg');
+background-repeat: no-repeat;
+background-size:cover;
+background-position: left;
+}
 
 .snodo {
 background: url('../img/motores/snodo.png'), #B1BBBE;
