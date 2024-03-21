@@ -12,16 +12,20 @@ h1 {
     box-sizing: border-box;
 }
 
-html {
-    background-color: #fff;
-}
 body {
-    max-width: 1920px;
-    margin:0 auto;
+    background-color: #fff;
 }
 
 p {
     font-size: 14px;
+}
+
+.wrapper {
+    max-width: 1920px;
+    margin:0 auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .presentation {
@@ -147,15 +151,16 @@ nav > a:not(.logo):hover, .social > a:hover {
 }
 
 .carousel {
-    height: 688px;
+   /*  height: 688px; */
+   max-width: 1603px;
     background-color: #fff;
     overflow: hidden;
     position: relative;
 }
 
 .slides {
-    min-height: 700px;
-/*     display: flex;    
+   /* min-height: 700px;
+     display: flex;    
     overflow-x: hidden;
     flex-wrap: nowrap; */
 }
@@ -192,7 +197,7 @@ display: none;
     scroll-snap-align: start;
     flex-shrink: 0;
     width: 100%;
-    height: 700px;
+    height: 865px;
     background: #eee;
     background-size: cover;
     background-repeat:no-repeat;
@@ -220,15 +225,14 @@ display: none;
   }
 
   .carousel-text {
-    min-width: 70%;
+    min-width: 50%;
     height: fit-content;
     padding: 2rem;
     display: flex;
     justify-content: flex-end;
     gap: 16px;
-    text-align: center;
+    text-align: left;
     font-weight: 300;
-    font-size: 2rem;
     background-color: rgba(0,0,0,.4);
     box-sizing: border-box;
     align-items: center;
@@ -237,10 +241,10 @@ display: none;
   }
 
   .carousel-text > p {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
 
-  #slide-2 .carousel-text {
+  #slide-2 .carousel-text, #slide-4 .carousel-text {
     background-color: rgba(255,255,255,.2);
   }
   
@@ -257,7 +261,7 @@ display: none;
   }
 
   .carousel-text > a {
-    font-size: 4rem;
+    font-size: 2rem;
     color: #2A2A2A;
     background: radial-gradient(#fff 50%, rgba(255,255,255,0)50%);
     border-radius: 100%;
@@ -311,31 +315,42 @@ display: none;
 
   #slide-1 {
     background-image: url('../img/carousel/slide_pres.jpg');
-    background-size: 100%;
+    background-size: 1603px 866px;
+    background-repeat: no-repeat;
+    background-position: center;
   }
   #slide-2 {
     background-image: url('../img/carousel/Porton_garage_bmw.jpg');
-    background-size: 100%;
+    background-size: 1603px 866px;
+    background-repeat: no-repeat;
+    background-position: center;
   }
 
   #slide-3 {
     background-image:url('../img/index/Mosquitos01.jpg');
-    background-size: 100%;
+    background-size: 1603px 866px;
+    background-repeat: no-repeat;
+    background-position: center;
     
   }
   #slide-4 {
     background-image: url('../img/index/Carrusel-4.jpg');
-    background-size: 100%;
+    background-size: 1603px 866px;
+    background-repeat: no-repeat;
+    background-position: center;
   }
   #slide-5 {
     background-image:url('../img/index/AdobeStock_496758663.jpg');
-    background-size: 100%;
+    background-size: 1603px 866px;
+    background-repeat: no-repeat;
+    background-position: center;
   }
 
 .navgrid {
     display: flex;
     flex-wrap: wrap;
-
+    width: 88%;
+    max-width: 1603px;
 }
 
 .grid-item {
@@ -467,7 +482,7 @@ grid-column-start: 2;
 }
 
 .nav-button-pad {
-    width:  50%;
+    width:  40%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -645,12 +660,13 @@ a.navpad-button_mosquiteros::after, a.navpad-button.button-xxl_mosquiteros::afte
 }
 
 .section-grid h6, .section_header, .description_title {
-    font-size: 18px;
+    font-size: 17px;
     padding: 1rem 0;
     color:#282828;
     max-width: 35ch;
     font-weight: 500;
     font-family: Raleway, sans-serif;
+    text-align: center;
 }
 
 .section-grid p {
@@ -708,13 +724,14 @@ a.navpad-button_mosquiteros::after, a.navpad-button.button-xxl_mosquiteros::afte
 .main-text {
     margin-left: 6%;
     scroll-behavior: smooth;
+    width: 100%;
 }
 .main-text h1, .main_title {
     color:#2A2A2A;
-    font-size: 2.5rem;
+    font-size: 1.5rem;
     font-weight: 500;
     display: block;
-    width: 100%;
+   /*  width: 100%; */
     text-align: left;
     padding: 20px 0 20px 30px;
     font-family: Raleway, sans-serif;
@@ -933,14 +950,15 @@ backdrop-filter: blur(5px);
 }
 
 .grid_con-bottom > div {
-    width: 25%;
+/*     width: 25%;
+    min-width: 420px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
     padding: 32px;
-    background-color: #EFEEEE;
-    margin-left: 5%;
+    background-color: #EFEEEE; */
+    margin-left: 7%;
     margin-top: auto;
     margin-bottom: -8rem;
 }
@@ -1656,7 +1674,7 @@ box-sizing: border-box;
 }
 
 .title_producto-portones > h3 {
-    border-bottom: 1px solid #BE9E6C;
+    border-bottom: 1px solid #290a1e;
 }
 
 .title_producto-motor > h3 {
@@ -1674,28 +1692,31 @@ box-sizing: border-box;
 }
 
 a.navpad-button_portones::after {
-    background-color: rgba(255,201,140,0.5);
+    background-color: rgba(114, 32, 89, 0.3);
+    background-blend-mode: multiply;
 }
 
 .intro_portones {
-    border-color: #BF9960;
+    border-color: #3b0a2c;
 }
 
 .section-nth-header_portones {
-    border-color: #BF9960;
+    border-color: #3b0a2c;
 }
 
 .intro_portones > p {
-    color: #AA671C;
+    color: #29061e;
 }
 
 .grid_portones {
     background: url("../img/portones/Porton-Aluminio-SimilMadera.jpg");
-    background-size:70%;
+    background-size:initial;
     background-repeat: no-repeat;
-    border-bottom:8rem solid #BF9960;
-    background-position: right;
-    width: 80%;
+    border-bottom:8rem solid #B091A5;
+    background-position: right bottom;
+   /*  width: 80%; */
+    min-width: 551px;
+    min-height:876px;
     margin:0 auto;
     box-sizing: border-box;
 }
@@ -1707,9 +1728,24 @@ a.navpad-button_portones::after {
 .grid_portones >.description-product_column p, .grid_motores >.description-product_column p {
     color: #2A2A2A;
     font-weight: 300;
-    text-align: left;
-    padding: 1rem 1rem 0.25rem 0;
+    text-align: center;
+   /*  padding: 1rem 1rem 0.25rem 0; */
     line-height: 1.5rem;
+}
+
+.description-product_column {
+    display: flex;
+    flex-direction: column;
+    gap:1rem;
+    width: 27%;
+    min-width: 420px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 42px;
+    background-color: #EFEEEE;
+    box-sizing: border-box;
 }
 .grid-logistica_persianas1 div.description-product_column > p {
     text-align: left;
@@ -1732,8 +1768,8 @@ a.navpad-button_portones::after {
     to right,
     #fff 0%,
     #fff 50%,
-    #BF9960 50%,
-    #BF9960 100%
+    #c9c3d7 50%,
+    #c9c3d7 100%
   );
   flex-direction: row;
   box-sizing: border-box;
@@ -2014,7 +2050,11 @@ a.navpad-button_persiana-cajones::after {
     margin-top:15px;
     border-top:150px solid #AC7D88;
     border-bottom:25px solid #AC7D88;
-    padding:30px 30%;
+    padding:30px 20%;
+}
+
+h3.title-productos {
+    border-bottom-color: #ac7d88;
 }
 
 #guias-persiana > .nav-button-pad .title-menu_productos h3 .section-subtitle {
@@ -2104,7 +2144,7 @@ a.navpad-button_persiana-cajones::after {
     font-size:.75rem;
     color: #2a2a2a;
     font-weight: 300;
-    text-align: left;
+    text-align: center;
 
 }
 
