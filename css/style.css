@@ -722,18 +722,20 @@ a.navpad-button_mosquiteros::after, a.navpad-button.button-xxl_mosquiteros::afte
     outline-offset: -1px;
 }
 .main-text {
-    margin-left: 6%;
+    padding-left: 6%;
     scroll-behavior: smooth;
     width: 100%;
+    box-sizing: border-box;
 }
 .main-text h1, .main_title {
     color:#2A2A2A;
     font-size: 1.5rem;
     font-weight: 500;
     display: block;
-   /*  width: 100%; */
+    width: 94%;
+    box-sizing: border-box;
     text-align: left;
-    padding: 20px 0 20px 30px;
+    padding: 20px 0 20px 0;
     font-family: Raleway, sans-serif;
 }
 
@@ -744,7 +746,7 @@ a.navpad-button_mosquiteros::after, a.navpad-button.button-xxl_mosquiteros::afte
 .intro_servicios {
     margin-top:15px;
     border-top:150px solid #A6A4C1;
-    padding:30px 30%;
+    padding:30px 15%;
 }
 
 .section_servicios {
@@ -783,7 +785,7 @@ a.navpad-button_mosquiteros::after, a.navpad-button.button-xxl_mosquiteros::afte
 display: flex;
 align-items: stretch;
 width: 70%;
-margin:0 auto;
+/* margin:0 auto; */
 }
 
 div.grid-logistica > div.grid-logistica_content {
@@ -958,7 +960,7 @@ backdrop-filter: blur(5px);
     justify-content: center;
     padding: 32px;
     background-color: #EFEEEE; */
-    margin-left: 7%;
+    margin-left: 6%;
     margin-top: auto;
     margin-bottom: -8rem;
 }
@@ -1543,8 +1545,8 @@ div.description-product_column > p {
 }
 .grid-logistica_persianas1 > div.description-product_column {
     min-width: 20ch;
-    max-width: 40ch;
-    padding-left: 10%;
+    max-width: 65ch;
+    /* padding-left: 10%; */
     flex-grow:1;
 }
 
@@ -1556,7 +1558,7 @@ div.description-product_column > p {
 
 .grid-logistica_persianas1 > .img {
     max-width: 30rem;
-    margin-right: 2rem;
+    margin-right: 2rem !important;
     margin-left: auto;
     margin-bottom: 2rem;
     flex-grow: 1;
@@ -1721,8 +1723,8 @@ a.navpad-button_portones::after {
     box-sizing: border-box;
 }
 
-.portones-title {
-    margin-left:13%;
+.main-text h1.portones-title {
+    padding-left:6%;
 }
 
 .grid_portones >.description-product_column p, .grid_motores >.description-product_column p {
@@ -1737,7 +1739,7 @@ a.navpad-button_portones::after {
     display: flex;
     flex-direction: column;
     gap:1rem;
-    width: 27%;
+    width: 49ch;
     min-width: 420px;
     display: flex;
     flex-direction: column;
@@ -1748,14 +1750,16 @@ a.navpad-button_portones::after {
     box-sizing: border-box;
 }
 .grid-logistica_persianas1 div.description-product_column > p {
-    text-align: left;
-    padding:1rem;
+    text-align: center;
+    /* padding:1rem; */
 }
 
 .grid-logistica_persianas1 div.description-product_column > h6 {
-    text-align: left;
+    text-align: center;
     align-self: flex-start;
     padding-left:1rem;
+    max-width: unset;
+    width: 100%;
 }
 
 .grid_portones > div {
@@ -1763,7 +1767,7 @@ a.navpad-button_portones::after {
 }
 
 .container-portada_portones {
-    width: 100%;
+    width: 94%;
     background: linear-gradient(
     to right,
     #fff 0%,
@@ -1775,12 +1779,12 @@ a.navpad-button_portones::after {
   box-sizing: border-box;
   justify-content: space-between;
   align-items: stretch;
+  margin-left: 6%;
 }
 
 .portada_sistema_portones {
     background-color: #EFEEEE;
     display: flex;
-    justify-content: center;
     align-items: center;
     min-height: 20rem;
 }
@@ -2423,7 +2427,7 @@ strong {
     height: 100%;
 }
 
-.portones-title {
+.sistema-portones-title {
     display: block;
     background-color: #fff;
     padding: .5rem 1rem;
@@ -2435,6 +2439,7 @@ strong {
     font-family: Raleway, sans-serif;
     font-size: 18px;
     color:#BC7400;
+    box-sizing: border-box;
 }
 
 .portones-text > a {
