@@ -475,7 +475,7 @@ grid-column-start: 2;
 }
 
 .navpad {
-    height: 786px;
+    height: 781px;
     background-color: grey;
     display: flex;
     align-items: flex-end;
@@ -1351,6 +1351,7 @@ a.navpad-button.button-xxl >.navpad-button__title {
 
 .prod_titulo {
     margin-top: 40px;
+    padding: 20px 0 20px 6% !important;
 }
 
 .button-xxl > i {
@@ -1508,6 +1509,10 @@ width: 40%;
     border-bottom: 1px solid #B1BBBE;
     color:#2A2A2A;
     padding-bottom:1rem;
+}
+
+.title_producto-dark > p, .title_producto-dark > h3 {
+    color: #2a2a2a;
 }
 
 .title-productos_persiana > p {
@@ -2022,7 +2027,7 @@ a.navpad-button_persiana-cajones::after {
     margin-right:15%;
 }
 
-.colorful-header > h3, .colorful-header > p, .breadcrumb_persiana-accesorios {
+.breadcrumb_persiana-accesorios {
     color: #A5B6C4;
 }
 
@@ -2038,8 +2043,9 @@ a.navpad-button_persiana-cajones::after {
 
 .guias-persianas {
     background-image: url('../img/guias/Guias-Aluminio-Persiana.jpg');
-    background-size: cover;
-    background-position: center;
+    background-size: 1689px 782px;
+    background-repeat: no-repeat;
+    background-position: center; 
 }
 
 .guias-persiana > .nav-button-pad .title-menu_productos p {
@@ -2187,8 +2193,9 @@ h3.title-productos {
 
 #persianas {
     background-image: url('../img/PERSIANAS/Persianas-Inyectadas-Extruidas.jpg');
+    background-size: 1689px 782px;
     background-repeat: no-repeat;
-    background-size:cover;
+    background-position: center; 
 }
 
 #persianas-img {
@@ -2197,21 +2204,22 @@ h3.title-productos {
 
 #portones {
     background: url('../img/carousel/Porton_garage_bmw.jpg');
+    background-size: 1689px 782px;
     background-repeat: no-repeat;
-    background-size:cover;
     background-position: center;   
 }
 
 #cajones-portada {
     background-image: url('../img/cajones/Cajon-Persiana-AluminioPVC.jpg');
+    background-size: 1689px 782px;
     background-repeat: no-repeat;
-    background-size:100%;
-    background-position: center;
+    background-position: center; 
 }
 #mosquiteros {
     background-image: url('../img/mosquiteros/Mosquiteros-Cabezal-Enrollable.jpg');
+    background-size: 1689px 782px;
     background-repeat: no-repeat;
-    background-size:cover;
+    background-position: center; 
 }
 
 #mosquitero-portada {
@@ -2229,30 +2237,31 @@ background-position: left;
 
 #lamas-portones {
     background-image: url('../img/portones-lamas/Porton-Garage-Lamas.jpg');
+    background-size: 1689px 782px;
     background-repeat: no-repeat;
-    background-size:cover;
-    background-position: center;
+    background-position: center; 
 }
 
 #accesorios-porton {
     background-image: url('../img/portones/Render_AccesoriosPorton.png');
+    background-size: 1689px 782px;
     background-repeat: no-repeat;
-    background-size:cover;
-    background-position: center;
+    background-position: center; 
     background-color: #fff;
 }
 
 #motores {
     background-image: url('../img/portadas/motores.png');
+    background-size: 1689px 782px;
     background-repeat: no-repeat;
-    background-size:110%;
-    background-position: center;
+    background-position: center; 
 }
 
 #cajon-porton {
     background-image: url('../img/portones-cajon/Porton-Garage-Cajon.jpg');
-    background-size: cover;
-    background-position: center;
+    background-size: 1689px 782px;
+    background-repeat: no-repeat;
+    background-position: center; 
 }
 
 #lamas {
@@ -2263,14 +2272,15 @@ background-position: left;
 
 #lamas-portada {
     background-image: url('../img/lamas/Persianas-Lamas-Aluminio.jpg');
+    background-size: 1689px 782px;
     background-repeat: no-repeat;
-    background-size:cover;
-    background-position: center;
+    background-position: center; 
 }
 
 #productos-portada {
     background-image: url('../img/PRODUCTOS/Persianas-Portones-Construccion.jpg');
-    background-size: cover;
+    background-size: 1689px 782px;
+    background-repeat: no-repeat;
     background-position: center; 
 }
 
@@ -2279,6 +2289,9 @@ background-position: left;
     background-repeat: no-repeat;
     background-size: auto 100%;
     background-position: right;
+/*     background-size: 1689px 782px;
+    background-repeat: no-repeat;
+    background-position: center; */ 
 }
 #guia-porton {
     background: url('../img/guia-porton/Guias-Aluminio-Porton.jpg');
