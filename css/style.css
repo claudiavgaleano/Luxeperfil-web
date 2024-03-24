@@ -152,17 +152,24 @@ nav > a:not(.logo):hover, .social > a:hover {
 
 .carousel {
    /*  height: 688px; */
-   max-width: 1603px;
+    max-width: 1603px;
+    width: 100%;
     background-color: #fff;
     overflow: hidden;
     position: relative;
     align-self:center;
 }
 
+/* .slides {
+    min-height: 700px;
+      display: flex;    
+     overflow-x: hidden;
+     flex-wrap: nowrap;
+ }
 
 .slides::-webkit-scrollbar {
 display: none;
-  }
+  } */
 
   button.prev, button.next {
     z-index: 2;
@@ -188,7 +195,7 @@ display: none;
     font-size:36px;
   }
 
-  .slides .carousel-item{
+.carousel-item{
     scroll-snap-align: start;
     flex-shrink: 0;
     width: 100%;
