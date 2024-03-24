@@ -40,8 +40,8 @@ p {
     flex-direction: column;
     width: 100%;
     box-sizing: border-box;
-
 }
+
 .social {
     display:flex;
     flex-direction: column;
@@ -156,6 +156,7 @@ nav > a:not(.logo):hover, .social > a:hover {
     background-color: #fff;
     overflow: hidden;
     position: relative;
+    align-self:center;
 }
 
 .slides {
@@ -2224,8 +2225,9 @@ h3.title-productos {
 
 #mosquitero-portada {
     background-image: url('../img/mosquiteros/Mosquiteros-Lateral-Vertical.jpg');
+    background-size: 1689px 782px;
     background-repeat: no-repeat;
-    background-size:cover;
+    background-position: center; 
 }
 
 #mosquiteros-img {
@@ -2295,9 +2297,9 @@ background-position: left;
 }
 #guia-porton {
     background: url('../img/guia-porton/Guias-Aluminio-Porton.jpg');
+    background-size: 1689px 782px;
     background-repeat: no-repeat;
-    background-position: center;
-    background-size: cover;
+    background-position: center; 
 }
 
 #portada-descargas {
@@ -2317,15 +2319,15 @@ background-position: left;
 
 #motor-persiana {
     background-image: url('../img/motores/Render_MotoresPersiana.png');
+    background-size: 1689px 782px;
     background-repeat: no-repeat;
-    background-size: cover;
-    background-position: center;
+    background-position: center; 
 }
 
 #motores-portones-1 {
     background-image: url('../img/motores/AdobeStock_64607584.jpg');
+    background-size: 1689px auto;
     background-repeat: no-repeat;
-    background-size: cover;
     background-position: center; 
 }
 
