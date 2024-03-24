@@ -20,7 +20,7 @@ background-position: center;
 }
 
 .persianas::after, .portones::after, .instructivos::after {
-    background-color:rgba(177, 187, 190, 0.5);
+    background-color:rgba(177, 187, 190, 0.3);
     background-blend-mode: multiply;
 }
 

@@ -159,12 +159,6 @@ nav > a:not(.logo):hover, .social > a:hover {
     align-self:center;
 }
 
-.slides {
-   /* min-height: 700px;
-     display: flex;    
-    overflow-x: hidden;
-    flex-wrap: nowrap; */
-}
 
 .slides::-webkit-scrollbar {
 display: none;
@@ -1376,6 +1370,7 @@ a.button-xxl::after {
 
 a.button-motor-persiana::after {
     background-color: rgba(231,143,143,0.3);
+    background-blend-mode: multiply;
 }
 
 a.button-xxl:hover::after {
@@ -1433,7 +1428,8 @@ a.button-xxl:hover::after {
 }
 
 a.button-motor-portones::after {
-    background-color: rgba(255,199,133,0.5);
+    background-color: rgba(255,199,133,0.3);
+    background-blend-mode: multiply;
 }
 
 .descubri-mas_motor-portones {
@@ -2100,6 +2096,9 @@ h3.title-productos {
     display: flex;
     flex-direction: column;
     gap: 1rem;
+    width: 100%;
+    box-sizing: border-box;
+    padding:0 8%;
 }
 .destacados-container {
     display: flex;
@@ -2123,7 +2122,7 @@ h3.title-productos {
 .destacados-item {
     display: flex;
     flex-direction: column;
-    max-width: 382px;
+    max-width: 350px;
     min-height: 10rem;
     align-items: center;
     box-sizing: border-box;
