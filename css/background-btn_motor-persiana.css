@@ -1,12 +1,26 @@
 .remoto { 
-background: url('../img/motores/remoto.jpg'), #FFF;
+background: url('../img/motores/Motores-Persiana-ControlRemoto.jpg');
 background-repeat: no-repeat;
 background-size:contain;
 background-position: center;   
 }
 
 .tecla { 
-background: url('../img/motores/teclas.jpg'), #B1BBBE;
+background: url('../img/motores/Motores-Persiana-Tecla.jpg');
+background-repeat: no-repeat;
+background-size:cover;
+background-position: center;   
+}
+
+.remoto-xxl { 
+background: url('../img/motores/Motores-Accesorios-ControlRemoto.jpg');
+background-repeat: no-repeat;
+background-size:contain;
+background-position: center;   
+}
+
+.tecla-xxl { 
+background: url('../img/motores/Motores-Accesorios-TeclaPared.jpg');
 background-repeat: no-repeat;
 background-size:cover;
 background-position: center;   
@@ -67,3 +81,10 @@ background-repeat: no-repeat;
 background-size:cover;
 background-position: center;
 }
+
+.centralita {
+    background: url('../img/motores/teclas-1.png'), #B1BBBE;
+    background-repeat: no-repeat;
+    background-size:cover;
+    background-position: center;
+    }
