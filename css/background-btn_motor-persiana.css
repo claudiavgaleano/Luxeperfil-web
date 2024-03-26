@@ -69,22 +69,22 @@ background-position: center;
 }
 
 .mando {
-background: url('../img/motores/mandos.png'), #B1BBBE;
+background: url('../img/motores/Accesorios-Porton-ControlRemoto.jpg');
 background-repeat: no-repeat;
 background-size:cover;
 background-position: center;
 }
 
 .tecla-porton {
-background: url('../img/motores/teclas-1.png'), #B1BBBE;
+background: url('../img/motores/Accesorios-Porton-TeclaPared.jpg');
 background-repeat: no-repeat;
 background-size:cover;
 background-position: center;
 }
 
 .centralita {
-    background: url('../img/motores/teclas-1.png'), #B1BBBE;
-    background-repeat: no-repeat;
-    background-size:cover;
-    background-position: center;
-    }
+background: url('../img/motores/teclas-1.png'), #B1BBBE;
+background-repeat: no-repeat;
+background-size:cover;
+background-position: center;
+}
