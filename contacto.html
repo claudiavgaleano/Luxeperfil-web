@@ -54,7 +54,7 @@
                         </span>
                         <a href="./contacto.html">contacto </a> 
                     </div>
-                    <div class="navpad" id="contacto-img">
+                    <div class="navpad" id="contacto-img" role="img" alt="Contacta con LuxePerfil Argentina via Facebook, Instagram, WhatsApp , Mail, Telfono, Celular">
                         <div class="nav-button-pad">
                             <div class="section-title title_productos title-productos_persiana buttons-container_motor-persiana">
                                 <h3 class="title-padding-bottom">CONTACTO
@@ -64,21 +64,13 @@
                                 </p>
                             </div>
                             <div class="buttons-container buttons-container_productos buttons-container_persianas buttons-container_motor-persiana">
-    <!--                             <a href="#seccion-comerciales" class="navpad-button" id="representantes-btn">
-                                    <i class="fa-solid fa-circle-plus"></i></span>
-                                    <span class="navpad-button__title">COMERCIALES</span>   
-                                </a> -->
-                                <a href="#seccion-sucursales" class="navpad-button" id="sucursales-btn">
+
+                                <a href="#seccion-sucursales" class="navpad-button" id="sucursales-btn" role="button" alt="Encuentra nuestras Sucursales en Cordoba, Bahia Blanca y Buenos Aires">
                                     <i class="fa-solid fa-circle-plus"></i></span>
                                     <span class="navpad-button__title">SUCURSALES</span>   
                                 </a>
                             </div>
-    <!--                         <a class="navpad-button descubri-mas descubri-mas_persianas" href="#sistema-persianas">
-                                DESCUBRI MAS
-                                <span class="material-symbols-outlined">
-                                    stat_minus_3
-                                </span> 
-                            </a>-->
+
                         </div>
                     </div>
                 </div>
@@ -86,8 +78,12 @@
             <section class="main-text main_mosquiteros section-first-header section-nth-header_persiana" id="seccion-sucursales">
                 <h1>NUESTRAS SUCURSALES</h1>
                 <div class="container-portada_persianas container-contacto">
-                    <div class="portada_sistema_persianas contacto">
-                        <img src="./img/SERVICIOS/LuxeArg_Logistica.jpg" alt="">
+                    <div class="sucursal">
+                        <div class="img-container siema">
+                            <img src="./img/SERVICIOS/LuxeArg_Logistica.jpg" alt="Fabricantes de Persianas y Portones en Cordoba">
+                            <img src="./img/SERVICIOS/LuxeArg_Logistica.jpg" alt="Fabricantes de Persianas y Portones en Cordoba">
+                            <img src="./img/SERVICIOS/LuxeArg_Logistica.jpg" alt="Fabricantes de Persianas y Portones en Cordoba">
+                        </div>
                         <div class="portada-sistema-persianas_content card-contacto">
                             <h5>FÁBRICA CORDOBA</h5>
                             <span class="data-container">
@@ -111,8 +107,12 @@
 
                         </div>
                     </div>
-                    <div class="portada_sistema_persianas contacto">
-                        <img src="./img/SERVICIOS/LuxeArg_Logistica.jpg" alt="">
+                    <div class="sucursal">
+                        <div class="img-container siema">
+                            <img src="./img/SERVICIOS/LuxeArg_Logistica.jpg" alt="Fabricantes de Persianas y Portones en Buenos Aires">
+                            <img src="./img/SERVICIOS/LuxeArg_Logistica.jpg" alt="Fabricantes de Persianas y Portones en Buenos Aires">
+                            <img src="./img/SERVICIOS/LuxeArg_Logistica.jpg" alt="Fabricantes de Persianas y Portones en Buenos Aires">
+                        </div>
                         <div class="portada-sistema-persianas_content card-contacto">
                             <h5>FÁBRICA BUENOS AIRES</h5>
                             <span class="data-container">
@@ -136,8 +136,12 @@
 
                         </div>
                     </div>
-                    <div class="portada_sistema_persianas contacto">
-                        <img src="./img/SERVICIOS/LuxeArg_Logistica.jpg" alt="">
+                    <div class="sucursal">
+                        <div class="img-container siema">
+                            <img src="./img/contacto/ingreso-bahia.jpeg" alt="Fabricantes de Persianas y Portones en Bahia Blanca">
+                            <img src="./img/contacto/deposito-bahia.jpeg" alt="Fabricantes de Persianas y Portones en Bahia Blanca">
+                            <img src="./img/contacto/showroom-bahia.jpeg" alt="Fabricantes de Persianas y Portones en Bahia Blanca">
+                        </div>
                         <div class="portada-sistema-persianas_content card-contacto">
                             <h5>FÁBRICA BAHIA BLANCA</h5>
                             <span class="data-container">
@@ -173,5 +177,23 @@
         </div>
            <script src="https://kit.fontawesome.com/ba786aa3e4.js" crossorigin="anonymous"></script>
            <script src="./js/hamburguer-menue.js"></script>
+           <script src="./js/siema/siema.min.js"></script>
+           <script>
+
+            const siemas = document.querySelectorAll('.siema');
+
+            for(const siema of siemas) {
+                const mySiema = new Siema({
+                    selector: siema,
+                    perPage:1,
+                    loop: true,
+                    duration: 250,
+                    easing: 'ease',
+                });
+                setInterval(() => mySiema.next(), 3000);
+            }
+
+            
+           </script>
     </body>
 </html>
