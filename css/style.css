@@ -1431,24 +1431,20 @@ a.button-xxl:hover::after {
 }
 
 .title_productos .title_motores-portones {
-    border-bottom-color: #FFC785;
+    border-bottom-color: #290d45;
 }
 
 a.button-motor-portones::after {
-    background-color: rgba(255,199,133,0.3);
+    background-color: rgba(41, 13, 69, 0.2);
     background-blend-mode: multiply;
 }
 
-.descubri-mas_motor-portones {
-    color: #997750;
-}
-
 .breadcrums-motor-portones {
-    color: #FFC785;
+    color: #090311;
 }
 
 .section-color-header_motor-portones {
-    border-top-color:  #FFC785;
+    border-top-color:  #290d45;
 }
 
 .section-subtitle {
@@ -1851,6 +1847,7 @@ a.navpad-button_portones::after {
     flex-direction: row;
     align-items: center;
     width: 80%;
+    min-width: 800px;
     height: fit-content;
     box-sizing: border-box;
     background-color: #efeeee;
