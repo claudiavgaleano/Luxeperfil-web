@@ -39,6 +39,12 @@ background-repeat: no-repeat;
 background-size:cover;
 background-position: center;
 }
+.ayuda-manual {
+background: url('../img/motores/Motor-Porton-AyudaManual.jpg');
+background-repeat: no-repeat;
+background-size:cover;
+background-position: center;
+}
 
 .motor-60 {
 background: url('../img/motores/Motores-Persiana-Control60.jpg');
@@ -62,7 +68,14 @@ background-position: left;
 }
 
 .snodo {
-background: url('../img/motores/snodo.png'), #B1BBBE;
+background: url('../img/motores/Accesorios-Porton-Snodo.jpg'), #B1BBBE;
+background-repeat: no-repeat;
+background-size:cover;
+background-position: center;
+}
+
+.snodo-link {
+background: url('../img/motores/Motor-Porton-Accesorios.jpg'), #B1BBBE;
 background-repeat: no-repeat;
 background-size:cover;
 background-position: center;
@@ -84,6 +97,20 @@ background-position: center;
 
 .centralita {
 background: url('../img/motores/Motores-Accesorios-Centralita.jpg'), #B1BBBE;
+background-repeat: no-repeat;
+background-size:cover;
+background-position: center;
+}
+
+.nom-45 {
+background: url('../img/motores/Motor-Porton-Eje70.jpg');
+background-repeat: no-repeat;
+background-size:cover;
+background-position: center;
+}
+
+.nom-60 {
+background: url('../img/motores/Motor-Garage-Eje70.jpg');
 background-repeat: no-repeat;
 background-size:cover;
 background-position: center;

@@ -975,7 +975,8 @@ backdrop-filter: blur(5px);
 .grid_tables {
     margin: auto 6%;
     display: flex;
-flex-direction: row;
+    flex-direction: row;
+    width: 80%;
 }
 
 .grid_tables > div:first-of-type {

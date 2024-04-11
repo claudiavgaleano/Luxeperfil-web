@@ -9,3 +9,17 @@
     background-size: contain;
     background-repeat: no-repeat;
 }
+
+.nom-45 {
+    background: url('../img/motores/Motor-Porton-Eje70.jpg');
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-position: center;
+    }
+    
+    .nom-60 {
+    background: url('../img/motores/Motor-Garage-Eje70.jpg');
+    background-repeat: no-repeat;
+    background-size:contain;
+    background-position: center;
+    }
