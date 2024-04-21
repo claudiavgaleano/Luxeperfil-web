@@ -1,25 +1,126 @@
-.motor40-tecla {
-    background-image: url('../img/motores/motor.jpg');
-    background-size: contain;
-    background-repeat: no-repeat;
+@import url("https://fonts.googleapis.com/css?family=Roboto:200,300,400,500,600|Raleway:300,400,500|Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200");
+
+.motor40-remoto {
+  background-image: url("../img/motores/NR35-10-16-RnPA.png");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: top;
 }
 
-.motor60-tecla {
-    background-image: url('../img/motores/Render_Motor60Generic.png');
+.motor40-tecla {
+    background-image: url("../img/motores/NO35-10-16.png");
     background-size: contain;
     background-repeat: no-repeat;
+    background-position: top;
+  }
+
+.motor60-tecla {
+  background-image: url("../img/motores/Render_Motor60Generic.png");
+  background-size: contain;
+  background-repeat: no-repeat;
 }
 
 .nom-45 {
-    background: url('../img/motores/Motor-Porton-Eje70.jpg');
-    background-repeat: no-repeat;
-    background-size:contain;
-    background-position: top;
-    }
-    
-    .nom-60 {
-    background: url('../img/motores/Motor-Garage-Eje70.jpg');
-    background-repeat: no-repeat;
-    background-size:contain;
-    background-position: top;
-    }
+  background: url("../img/motores/Motor-Porton-Eje70.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: top;
+}
+
+.nom-60 {
+  background: url("../img/motores/Motor-Garage-Eje70.jpg");
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: top;
+}
+
+.grid_tables {
+  flex-direction: column;
+}
+
+.grid_tables > .table_header {
+  width: 100%;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: unset;
+  margin-left: auto;
+}
+.grid_tables > .table-data-content:last-of-type {
+  width: 100%;
+  margin-top:2rem;
+}
+
+.motor-subtitle {
+  text-align: right;
+  font-family: Raleway, sans-serif;
+  color:#808080;
+  font-weight: 500;
+  font-size: 16px;
+}
+
+.table_img_grid > .img-holder {
+  width: 100%;
+}
+
+.items_container {
+  background-color: #f2f2f2;
+  padding: 2rem;
+  margin-top: unset;
+}
+
+.table-data-content {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+
+.optimum {
+    color: #E59929;
+    text-align: right;
+    font-size: .7rem;
+}
+
+.items > .kilos {
+    font-family: Roboto, sans-serif;
+    font-size: .7rem;
+    text-align: right;
+}
+
+.value_table {
+    align-self: center;
+    margin-left: unset;
+    background-color: #FFC98C;
+    border:unset;
+}
+
+.datos-tecnicos {
+    width: 100%;
+    margin-top: unset;
+}
+
+.datos-tecnicos tr {
+    border-bottom: 1px solid #000;
+}
+
+.datos-tecnicos tr:last-of-type {
+    border-bottom:unset;
+}
+
+.datos-tecnicos td {
+    font-family: Raleway, sans-serif;
+    font-size: 14px;
+    line-height: 200%;
+    vertical-align: text-top;
+}
+
+.datos-tecnicos tr td:first-of-type {
+    font-weight: 700;
+}
+
+.ficha_tecnica {
+    align-self:center;
+    width: 172px;
+    margin-left: auto;
+    margin-right: auto;
+    font-weight: 700;
+}
