@@ -14,6 +14,34 @@
     background-position: top;
   }
 
+  .nr1-5012 {
+    background-image: url("../img/motores/NR1-50-12.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top;
+  }
+
+  .nom45-50-12 {
+    background-image: url("../img/motores/NOM45-50-12.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top;
+  }
+
+  .nom60-100-12 {
+    background-image: url("../img/motores/NOM-60-100-12.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top;
+  }
+
+  .nr1-50-12-rn {
+    background-image: url("../img/motores/NR1-50-12-Rn.png");
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: top;
+  }
+
 .motor60-tecla {
   background-image: url("../img/motores/Render_Motor60Generic.png");
   background-size: contain;
@@ -123,4 +151,10 @@
     margin-left: auto;
     margin-right: auto;
     font-weight: 700;
+}
+
+.grid_tables:not(:first-of-type) {
+    margin-top:4rem;
+    border-top: 1px solid #f2f2f2;
+    padding-top:4rem;
 }
