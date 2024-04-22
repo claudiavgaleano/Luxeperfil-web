@@ -1163,6 +1163,7 @@ ol.two-columns > li:after {
 
 .grid-tables-portones {
   margin: 0 2%;
+  width: 100%;
 }
 
 .title-table-portones {

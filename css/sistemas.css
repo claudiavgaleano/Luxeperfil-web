@@ -1,0 +1,115 @@
+.sistemas-subtitle, .sistemas-supratitle {
+    text-align: right;
+    font-family: Raleway, sans-serif;
+    color:#808080;
+    font-weight: 500;
+    font-size: 16px;
+  }
+
+  .logo-sistema {
+    width: 70px;
+    height: auto;
+  }
+
+  .table_header {
+    width: 50%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+/*   .table_header.mini {
+    width: 18ch;
+  } */
+
+  .sistemas-supratitle {
+    color:#000;
+    text-align: center;
+    margin-left: -15ch;
+    font-weight: 600;
+  }
+
+  .grid-tables-portones {
+    padding: 0 6%;
+    width: 100%;
+    box-sizing: border-box;
+  }
+  .title-table-portones {
+    margin-right: unset;
+}
+
+.items {
+  margin-top: unset;
+  padding-top: 1.5rem;
+}
+
+.data-container {
+  display: flex;
+  flex-direction: column;
+  background-color: #f2f2f2;
+  padding-top: 1.5rem
+}
+
+.title-container {
+  display: flex;
+  width: 100%;
+}
+.img-container {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  margin-left: 3%;
+}
+.items > .text-portones {
+  padding: 1rem;
+}
+
+.grid_tables > div.porton-ficha-portada {
+  width: 50%;
+  align-items:flex-start;
+}
+
+.grid_tables > div.porton-ficha-portada + div {
+  width: 50%;
+}
+
+.grid_tables > div:first-child > img {
+  width: 100%;
+}
+
+.tabs {
+  display:flex;
+  width: 100%;
+  box-sizing: border-box;
+  padding:1rem;
+  padding-top:2rem;
+  padding-bottom:0;
+  margin-bottom:1rem;
+  border-bottom: 1px solid #f2f2f2;
+  gap:.5rem;
+}
+
+.tab {
+  box-sizing: border-box;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding:.5rem;
+  background-color:unset;
+  gap:.5rem;
+  font-family: Raleway, sans-serif;
+  font-weight: 500;
+}
+
+.tab > img {
+  width: 20px;
+  height: auto;
+}
+
+.tablink-active {
+  border-bottom: 3px solid #ffc98c;
+}
+
+.sistema{
+  margin-top:2rem;
+}

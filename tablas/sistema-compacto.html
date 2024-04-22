@@ -2,6 +2,7 @@
 <html lang="es">
     <head>
         <link rel="stylesheet" href="../css/style.css">
+        <link rel="stylesheet" href="../css/sistemas.css">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <meta name="description" content="Luxeperfil sistema compacto">
         <meta name="keywords" content="">
@@ -66,35 +67,105 @@
                 </div>
             </div>
         </div>
-        <section class="grid_tables">
-            <div>
-                <img src="../img/porton_renove.png" alt="">
+        <div class="tabs">
+            <button class="tab tablink-active" onClick="openSistema(event,'manual')"> <img src="../img/sistemas/ayuda-manual.svg" alt="">ACCIONAMIENTO MANUAL</button>
+            <button class="tab" onClick="openSistema(event,'motorizado')"> <img src="../img/sistemas/motorizado.svg" alt="">ACCIONAMIENTO MOTORIZADO</button>
+        </div>
+        <section class="sistema" id="manual">
+            <div class="grid_tables grid-tables-portones" >
+                <div class="porton-ficha-portada">
+                    <img src="../img/sistemas/explosion-sistema-mini-manual.png" alt="Portones de Aluminio con Cajon para Proyectos Arquitectonicos">
+                </div>
+                <div class="data-container">
+                    <div class=" title-container">
+                        <span class="img-container"><img src="../img/sistemas/ayuda-manual.svg" class="logo-sistema" alt=""></span>
+                        <div class="table_header title-table-portones mini">
+                            <span class="sistemas-supratitle">SISTEMA</span>
+                            <h1>COMPACTO </h1>
+                            <span class="sistemas-subtitle">(ACC. MANUAL)</span>
+                        </div>
+                    </div>
+
+                    <div class="items">
+                        <ol class="two-columns">
+                            <li>TESTERO LUXE BOX</li>
+                            <li>CAJON LUXE BOX</li>
+                            <li>PLACA CONTENCION</li>
+                            <li>RULEMANES</li>
+                            <li>EJE OCTOGONAL</li>
+                            <li>CONTERA</li>
+                            <li>DISCO COMPACTO</li>
+                            <li>PASACINTAS COMPACTO</li>
+                            <li>EMBUDOS COMPACTO</li>
+                            <li>FLEJES C/ PROTECTOR</li>
+                            <li>LAMAS </li>
+                            <li>TERMINAL C/GOMA</li>
+                            <li>CERROJO</li>
+                            <li>TOPES ANTI UV</li>
+                            <li>RECOGEDOR EMBUTIDO</li>
+                            <li>GUIAS ESPECIALES</li>
+                            <li>FELPA GUIAS</li>
+                        </ol>
+                        <div class="text-portones">
+                            <h4>MAXIMA EFICIENCIA ENERGETICA Y SEGURIDAD PARA TU NUEVA OBRA </h4>
+                            <div class="description">
+                                <p>El Sistema de Cajón Compacto es <strong> la solución constructiva perfecta para obras nuevas.</strong> Si la obra no cuenta con un taparrollo de mampostería, este sistema es la elección adecuada.</p>
+                                <p><strong>Diseno y Elegancia.</strong> A diferencia de las persianas convencionales, el sistema de cajón compacto <strong>no requiere albañileria.</strong> Simplemente <strong>se arma directamente sobre la abertura de la ventana</strong>, formando una sola unidad compacta, que <strong>permite un fácil acceso al mecanismo para su mantenimiento.</strong> </p>   
+                            </div>
+                            <img src="../img/sistemas/logos-prestaciones.svg" alt="">
+                            <a href="" class="link_descarga"><img src="../img/adobe_logo.png" alt="descarga de ficha tecnica" class="logo_descargas">DESCARGA INSTRUCTIVO DE MONTAJE</a>
+                        </div>
+                    </div>
+                </div>        
             </div>
-            <div>
-                <div class="table_header">
-                    <a href="" download class="link_descarga"><img src="../img/adobe_logo.png" alt="" class="logo_descargas">DESCARGA INSTRUCTIVO DE MONTAJE</a>
-                    <h1>SISTEMA COMPACTO</h1>
+        </section>
+        <section class="sistema" id="motorizado">
+            <div class="grid_tables grid-tables-portones">
+                <div class="porton-ficha-portada">
+                    <img src="../img/sistemas/explosion-sistema-mini-manual.png" alt="Portones de Aluminio con Cajon para Proyectos Arquitectonicos">
                 </div>
-                <div class="items">
-                    <ol class="two-columns">
-                        <li>ESQUADRA RENOVE</li>
-                        <li>TIRANTES</li>
-                        <li>MOTOR</li>
-                        <li>ANILLO COMPENSACION</li>
-                        <li>EJE 70</li>
-                        <li>CONTERA TELESCOPICA</li>
-                        <li>PLACA Y RODAMIENTO</li>
-                        <li>RODILLOS</li>
-                        <li>LAMA LP 75 EC</li>
-                        <li>LAMA LP 75 ECT</li>
-                        <li>TERMINAL</li>
-                        <li>GOMA TERMINAL</li>
-                        <li>GUIAS</li>
-                        <li>FELPA GUIAS</li>
-                    </ol>
-                </div>
-                <span class="link_descarga"><img src="../img/colores.png" alt="">DISPONIBLE EN CUALQUIER ACABADO</span>
-            </div>        
+                <div class="data-container">
+                    <div class=" title-container">
+                        <span class="img-container"><img src="../img/sistemas/motorizado.svg" class="logo-sistema" alt=""></span>
+                        <div class="table_header title-table-portones mini">
+                            <span class="sistemas-supratitle">SISTEMA</span>
+                            <h1>COMPACTO </h1>
+                            <span class="sistemas-subtitle">(ACC. MOTORIZADO)</span>
+                        </div>
+                    </div>
+
+                    <div class="items">
+                        <ol class="two-columns">
+                            <li>TESTERO LUXE BOX</li>
+                            <li>CAJON LUXE BOX</li>
+                            <li>PLACA CONTENCION</li>
+                            <li>RULEMANES</li>
+                            <li>EJE OCTOGONAL</li>
+                            <li>CONTERA</li>
+                            <li>MOTOR</li>
+                            <li>PLACA MOTOR</li>
+                            <li>EMBUDOS COMPACTO</li>
+                            <li>FLEJE MOTOR REFORZADO </li>
+                            <li>FLEJE COMPACTO </li>
+                            <li>LAMAS</li>
+                            <li>TERMINAL C/GOMA</li>
+                            <li>CONTROL REMOTO</li>
+                            <li>GUIAS PALA LISA</li>
+                            <li>FELPA GUIAS</li>
+                        </ol>
+                        <div class="text-portones">
+                            <h4>MAXIMA EFICIENCIA. <br/> AHORRA ENERGIA Y APORTA CONFORT Y SEGURIDAD A TU HOGAR</h4>
+                            <div class="description">
+                                <p> Al motorizar un sistema compacto, añades <strong>comodidad y confort a tu hogar.</strong></p>
+                                <p>Imagina poder <strong> centralizar el control de todas tus persianas</strong> con un único <strong>Control Remoto a Distancia </strong></p>
+                                <p>Desde el sofá o cualquier rincón de la casa, podrás subir o bajar las persianas sin esfuerzo, <strong> controlando a cada momento del dia la luz natural de tus espacios.</strong></p>
+                                <p>Además, olvídate de los recogedores, cintas o cordones. La motorización facilita el uso de las persianas y es <strong>una inversión inteligente para el futuro.</strong> </p>
+                            </div>
+                            <a href="" class="link_descarga"><img src="../img/adobe_logo.png" alt="descarga de ficha tecnica" class="logo_descargas">DESCARGA INSTRUCTIVO DE MONTAJE</a>
+                        </div>
+                    </div>
+                </div>        
+            </div>
         </section>
         <section class="closing_p">
         </section>
@@ -105,5 +176,21 @@
         </div>
         <script src="https://kit.fontawesome.com/ba786aa3e4.js" crossorigin="anonymous"></script>
         <script src="./js/hamburguer-menue.js"></script>
+        <script>
+            function openSistema(e, sistema) {
+                var i, x, tablinks;
+                x = document.getElementsByClassName("sistema");
+                for (i = 0; i < x.length; i++) {
+                    x[i].style.display = "none";
+                }
+                tablinks = document.getElementsByClassName("tab");
+                for (i = 0; i < x.length; i++) {
+                    tablinks[i].className = tablinks[i].className.replace(" tablink-active", "");
+                }
+                document.getElementById(sistema).style.display = "block";
+                e.currentTarget.className += " tablink-active";
+                console.log(e.target);
+            }
+        </script>
     </body>
 </html>
