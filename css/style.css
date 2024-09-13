@@ -534,7 +534,8 @@ button.next > span {
 }
 
 .buttons-container {
-  width: 350px;
+  width: 100%;
+  max-width: 350px;
   height: fit-content;
   padding: 16px;
   box-sizing: border-box;
@@ -2621,6 +2622,11 @@ strong {
     background-position: center;
   }
 }
+@media (max-width: 988px) {
+  .nav-button-pad {
+    width: 50%;
+  }
+}
 
 @media (max-width: 800px) {
   .grid_tables {
@@ -2664,21 +2670,6 @@ strong {
     display: block;
   }
 
-  /*     .navbar .navbar-item > ul {
-       
-        flex-direction: column;
-        z-index:inherit;
-        height: fit-content;        
-        gap:1rem;
-        background-color:#efeeee;
-    }
-
-    .navbar .navbar-item > .hidden-subnav + ul {
-        visibility:unset;
-        display: block flex;
-        opacity:1;
-        position:static;
-    } */
   .navbar .navbar-item:hover > ul,
   .navbar .navbar-item ul:hover {
     display: none;
@@ -2717,5 +2708,23 @@ strong {
   #slide-1,
   #slide-3 {
     background-size: cover;
+  }
+
+
+}
+
+@media (max-width: 793px) {
+  .nav-button-pad {
+    width: 60%;
+  }
+}
+
+@media (max-width: 665px) {
+  .nav-button-pad {
+    width: 100%;
+  }
+  a.navpad-button{
+    width: 130px;
+    height: 130px;
   }
 }
